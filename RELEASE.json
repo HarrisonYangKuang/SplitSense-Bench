@@ -77,7 +77,9 @@
     "evidence/candidate_menu_results.json": "a1d3cc8b5d2d856b6f6b72fc40de0ba64a226eba00d9fd224dbb9e30bd55b9f3",
     "RESEARCH_STATUS.md": "6ab606d7294f83702f97f92925b034c873f5d8f22f1c3a8473689fe9b7b317fb",
     "research/TEMPORAL_REFIT_TRANSFER_SCREEN.md": "e69fe56fefce29a6bff619946a0d099b1dbf87232f31983b62aa420718b7bc1f",
-    "research/APPLIANCES_SOURCE_CONTRACT.md": "b5d2780ae32fe0d3afdfe15d316773395a650c986c42245c8c7ce4f538f5653c"
+    "research/APPLIANCES_SOURCE_CONTRACT.md": "b5d2780ae32fe0d3afdfe15d316773395a650c986c42245c8c7ce4f538f5653c",
+    "experiments/appliances_inventory_v37.py": "b1d4a5da0a2086c18cd44fba60757f968fee1c5c872977024962db40bfe09e71",
+    "experiments/appliances_v37_launch.json": "5184b7717ad4631580ab6d51308ad35bf4a99457d9761bc9f0cfd65aef4437cd"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

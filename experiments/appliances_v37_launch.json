@@ -1,0 +1,23 @@
+{
+  "status": "prepared_single_dispatch",
+  "request": {
+    "slug": "yangkuangou/splitsense-appliances-metadata-v37",
+    "new_title": "SplitSense Appliances Metadata v37",
+    "language": "python",
+    "kernel_type": "script",
+    "is_private": true,
+    "enable_gpu": false,
+    "enable_tpu": false,
+    "enable_internet": true,
+    "dataset_data_sources": [],
+    "competition_data_sources": [],
+    "kernel_data_sources": [],
+    "model_data_sources": [],
+    "category_ids": [],
+    "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+    "session_timeout_seconds": 600
+  },
+  "source_sha256": "b1d4a5da0a2086c18cd44fba60757f968fee1c5c872977024962db40bfe09e71",
+  "cash_cap": 0,
+  "scope": "metadata only, zero fits; no automatic retry"
+}

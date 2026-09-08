@@ -1,0 +1,62 @@
+{
+  "retrieval": "Kaggle completed v1 stdout JSON; not downloaded artifact bytes",
+  "kernel": "yangkuangou/splitsense-appliances-metadata-v37",
+  "version": 1,
+  "report": {
+    "status": "complete",
+    "fits": 0,
+    "cash": 0,
+    "url": "https://raw.githubusercontent.com/LuisM78/Appliances-energy-prediction-data/e3e4c27a4ae2b41b21f84b4c9ac2d822d3d0ace1/energydata_complete.csv",
+    "max_download_bytes": 16777216,
+    "csv_sha256": "2820bf712ad0275cb18b85a05250926100d8e65ebb9f4d2d016ca91ea152a25d",
+    "csv_bytes": 11979363,
+    "rows": 19735,
+    "first": "2016-01-11T17:00:00",
+    "last": "2016-05-27T18:00:00",
+    "duplicate_timestamps": 0,
+    "interval_seconds": {
+      "600": 19734
+    },
+    "nonfinite_targets": 0,
+    "episodes": [
+      {
+        "episode": 0,
+        "start": "2016-01-19T00:00:00",
+        "end_exclusive": "2016-02-09T00:00:00",
+        "rows": 3024,
+        "expected_rows": 3024
+      },
+      {
+        "episode": 1,
+        "start": "2016-02-09T00:00:00",
+        "end_exclusive": "2016-03-01T00:00:00",
+        "rows": 3024,
+        "expected_rows": 3024
+      },
+      {
+        "episode": 2,
+        "start": "2016-03-01T00:00:00",
+        "end_exclusive": "2016-03-22T00:00:00",
+        "rows": 3024,
+        "expected_rows": 3024
+      },
+      {
+        "episode": 3,
+        "start": "2016-03-22T00:00:00",
+        "end_exclusive": "2016-04-12T00:00:00",
+        "rows": 3024,
+        "expected_rows": 3024
+      },
+      {
+        "episode": 4,
+        "start": "2016-04-12T00:00:00",
+        "end_exclusive": "2016-05-03T00:00:00",
+        "rows": 3024,
+        "expected_rows": 3024
+      }
+    ],
+    "coverage_pass": true,
+    "scientific_validity_pass": false,
+    "seconds": 2.23483217200004
+  }
+}

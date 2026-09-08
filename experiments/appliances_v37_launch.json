@@ -1,5 +1,5 @@
 {
-  "status": "prepared_single_dispatch",
+  "status": "completed",
   "request": {
     "slug": "yangkuangou/splitsense-appliances-metadata-v37",
     "new_title": "SplitSense Appliances Metadata v37",
@@ -19,5 +19,8 @@
   },
   "source_sha256": "b1d4a5da0a2086c18cd44fba60757f968fee1c5c872977024962db40bfe09e71",
   "cash_cap": 0,
-  "scope": "metadata only, zero fits; no automatic retry"
+  "scope": "metadata only, zero fits; no automatic retry",
+  "version": 1,
+  "kernel_id": 133552464,
+  "coverage_pass": true
 }

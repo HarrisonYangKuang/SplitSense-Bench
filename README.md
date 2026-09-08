@@ -81,3 +81,5 @@ The [development checklist and usage contract](skills/README.md) provide deploym
 ## Research completion status
 
 See [the v0.1.7-dev completion ledger](RESEARCH_STATUS.md) for delivered components, missing evidence, and the boundary between this usable development release and a validated research benchmark.
+
+Latest research narrative: [中文报告补充：截至 v38](research/REPORT_UPDATE_V38.md). This supplements the frozen earlier PDF; it does not establish formal Agent or Skill results.

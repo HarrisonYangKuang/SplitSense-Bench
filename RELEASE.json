@@ -35,7 +35,7 @@
     "tasks/temporal_iid/task_description.md": "e268b22de1cb0fdab4c681873667cfce36209ba1c0dd3b4c82e93d3852f8e81e",
     "tasks/entity_unseen/task_description.md": "0f2c1bee127b5c21e71d4eafc51c9d57aa734112f1607badb2a267138c6851d7",
     "benchmark.py": "ddcf411b2c7bf931082678fafb3728f9fef724af00aa93aec83b063803977e6e",
-    "README.md": "bd7bd99b6620f676d345bc70d9dd83f58c9b0ede85c1b6b81701336d850819f0",
+    "README.md": "05be644971d0eb9f2ff74bd714c5bd59087fefbb3707f5615fe4b895a7566ecb",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
     ".github/workflows/interface.yml": "23776f7c1e5ffbba8ff300891bfaefd30044b98a5fba7e99436679e5bc1ba7bc",
@@ -90,7 +90,8 @@
     "evidence/appliances_v38/coverage.json": "985f4f9a412b2a0ac187b87ed28708035d7f4208d33abb3e4600ff9f0a09fd82",
     "evidence/appliances_v38/predictions.json.gz": "9bef2a2e7508ac134959c6c11ee207d48f89aaaf92633a236f9967a3c324a111",
     "evidence/check_appliances_predictions.py": "183ca961de17ac80d94ddb98cbf61f8a4840ee24d9166e538c7f2505231d5384",
-    "evidence/appliances_v38/README.md": "9a8ab6b6f789d22f06cba0cc7558b8589f5fb9c6d8f96c016c39f855ef59cd33"
+    "evidence/appliances_v38/README.md": "9a8ab6b6f789d22f06cba0cc7558b8589f5fb9c6d8f96c016c39f855ef59cd33",
+    "research/REPORT_UPDATE_V38.md": "912197cd4ad4c60e46a3baf7897e73ddc97f7d99700c879970140c260c1d9c12"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

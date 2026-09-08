@@ -38,7 +38,7 @@
     "README.md": "bd7bd99b6620f676d345bc70d9dd83f58c9b0ede85c1b6b81701336d850819f0",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
-    ".github/workflows/interface.yml": "7d2214b0be62f89b870ff8b9e44b5abe2a161654d52e3126b719aa07c7574375",
+    ".github/workflows/interface.yml": "23776f7c1e5ffbba8ff300891bfaefd30044b98a5fba7e99436679e5bc1ba7bc",
     "evidence/cases.json": "c0cfc98035bc59f785e3474fde0ef2e99654099ef84208fa6859b3e4449c2909",
     "evidence/reproduce.py": "2e71006fc2408bce9b73464848114af08b7284c01dcdd36fdddc78f31d0fa229",
     "evidence/results.csv": "002a442216fed51d4464cd54e15e6b12aa05ed8267d96331c6054b79876dfb4b",
@@ -85,7 +85,12 @@
     "experiments/appliances_pilot_v38.py": "adea3a1cc236de44763b645200c4a53ae3bae1f5c7a423a56ec2e3ce82850466",
     "experiments/appliances_v38_launch.json": "196ead05c34ccb0f63bef51dd88386608358713c2556a792c50974672842d910",
     "evidence/appliances_v38_results.json": "46b969e9bbd3c3bc53e8335776f4ccc81c80aef4ed6f8a64dc84e70fd4547736",
-    "research/APPLIANCES_V38_RESULT.md": "773734309325b5d71a2746c0f3232208da21e6df86f3d11ebb74dac9d6a2970e"
+    "research/APPLIANCES_V38_RESULT.md": "773734309325b5d71a2746c0f3232208da21e6df86f3d11ebb74dac9d6a2970e",
+    "evidence/appliances_v38/choice_lock.json": "8fcb1b82c150ea4c17cddefc592176cb00a02bd84c08f38d2fa09c6481db0cc9",
+    "evidence/appliances_v38/coverage.json": "985f4f9a412b2a0ac187b87ed28708035d7f4208d33abb3e4600ff9f0a09fd82",
+    "evidence/appliances_v38/predictions.json.gz": "9bef2a2e7508ac134959c6c11ee207d48f89aaaf92633a236f9967a3c324a111",
+    "evidence/check_appliances_predictions.py": "183ca961de17ac80d94ddb98cbf61f8a4840ee24d9166e538c7f2505231d5384",
+    "evidence/appliances_v38/README.md": "9a8ab6b6f789d22f06cba0cc7558b8589f5fb9c6d8f96c016c39f855ef59cd33"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

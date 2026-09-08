@@ -29,3 +29,6 @@ jobs:
 
       - name: Decompose saved candidate-menu effects
         run: python3 evidence/candidate_menu_analysis.py
+
+      - name: Independently audit saved v38 predictions
+        run: python3 evidence/check_appliances_predictions.py

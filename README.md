@@ -63,3 +63,5 @@ The [8-page technical report](https://github.com/HarrisonYangKuang/SplitSense-Be
 ## Connect a text responder
 
 The [training-only Agent interface](harness/README.md) supports bounded evaluate/commit actions over stdin/stdout, with explicit receipts and failure handling. It does not include a paid model client or claim OS-level isolation.
+
+The [post-commit grader](harness/README.md#post-commit-scoring-command) completes the public selection workflow by replaying sealed actions before opening scoring data.

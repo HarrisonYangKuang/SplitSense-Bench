@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5-dev",
+  "version": "0.1.6-dev",
   "status": "development_only",
   "scientific_validity_gate": false,
   "local_tiny_demo": "pass",
@@ -34,8 +34,8 @@
     "tasks/temporal_future/task_description.md": "e23219253d0952fa66a98e585165a66edb4a487ce0ec92d1794c8a89957ac2b7",
     "tasks/temporal_iid/task_description.md": "e268b22de1cb0fdab4c681873667cfce36209ba1c0dd3b4c82e93d3852f8e81e",
     "tasks/entity_unseen/task_description.md": "0f2c1bee127b5c21e71d4eafc51c9d57aa734112f1607badb2a267138c6851d7",
-    "benchmark.py": "678df72cf040dfc9a6c8da631ceb585998e8c8984a2ecaad5e09bf4611d13682",
-    "README.md": "05bbd6848dd7193d67630449b528c138a6f11a4e7eef569ff80b89a5261c5135",
+    "benchmark.py": "92d18b68dcd657c1749e029b04abe659fd22628978b0d2902e71e45a98b01f01",
+    "README.md": "ed73b53cb74e57ab927d80d2829b6c6b6a310667d31a40b9c0d94361e060cfab",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
     ".github/workflows/interface.yml": "e432f7c72c9d88ff7ee14e630dd3544f593853ce2411d34e3b95e5badece0f96",
@@ -60,8 +60,9 @@
     "harness/controlled_session_v03a.py": "96f572f800827e515371e157c73888c337824076e3d47cae918022d453277993",
     "harness/phase_session_v04.py": "29dc7618ab45ebcaee458b083836b7bc2463e62eabb08f425122675d03790e65",
     "harness/pipe_session.py": "5c32d569ae7123681b507eeba0f78691b206309ecfe8860d7853fd37e953e1aa",
-    "tests/test_session_contract.py": "721f934e2218116af213c7b49f28b1d2547459d5608fbd7ac7c6a5cbddfb6944",
-    "harness/README.md": "ac7acc7efa1f9a0e7c55dabdb5f8d52f3445f669740168414b603a6e7ec47f62"
+    "tests/test_session_contract.py": "0a734a40e882f11255270133e486dc7dd0788154842e0cf4f3cd85c9790857cc",
+    "harness/README.md": "07e627dc260e4f7c737ad4c63721caf1711cd87bb78a792424dc59729392be6e",
+    "harness/grade_session.py": "9715d1ddbfc36f9af93a285a29370ae76e5e49c8837d27adccc97b2e5d184657"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

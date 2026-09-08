@@ -27,4 +27,10 @@ class SessionContract(unittest.TestCase):
    p=subprocess.run([sys.executable,'-m','harness.pipe_session','--train',str(root/'agent/train.csv'),'--brief',str(root/'agent/task_description.md'),'--receipt',str(root/'receipt.json')],input=''.join(json.dumps(a)+'\n' for a in actions),capture_output=True,text=True,timeout=15,check=True)
    end=json.loads(p.stdout.splitlines()[-1]);self.assertEqual(end['status'],'committed')
    receipt=json.loads((root/'receipt.json').read_text());self.assertEqual(receipt['session']['commit']['candidate_id'],'train_mean');self.assertEqual(receipt['attempted_responses'],2)
+   from harness.grade_session import grade_files
+   args=[root/'agent/train.csv',root/'agent/task_description.md',root/'receipt.json',root/'agent/test.csv',root/'evaluator/hidden_labels.csv']
+   score=grade_files(*args);self.assertEqual(score['candidate_id'],'train_mean');self.assertGreaterEqual(score['finite_library_regret'],0)
+   receipt['session']['commit']['candidate_id']='global_linear';(root/'receipt.json').write_text(json.dumps(receipt))
+   with self.assertRaisesRegex(ValueError,'matching sealed session'):grade_files(*args[:3],root/'absent-test.csv',root/'absent-hidden.csv')
+
 if __name__=='__main__':unittest.main()

@@ -26,3 +26,6 @@ jobs:
 
       - name: Compare saved independent implementation results
         run: python3 evidence/check_capital_reproduction.py
+
+      - name: Decompose saved candidate-menu effects
+        run: python3 evidence/candidate_menu_analysis.py

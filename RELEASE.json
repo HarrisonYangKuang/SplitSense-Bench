@@ -38,7 +38,7 @@
     "README.md": "c8376ec1c0a3a7947b9d95e17c2b75cd7474840dab8fbbd976e0f82f878ce6a6",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
-    ".github/workflows/interface.yml": "c4e40711cea995f3527a30aa50ce912fd3aa14fdfaeff3380fa4f3d734c297c7",
+    ".github/workflows/interface.yml": "7d2214b0be62f89b870ff8b9e44b5abe2a161654d52e3126b719aa07c7574375",
     "evidence/cases.json": "c0cfc98035bc59f785e3474fde0ef2e99654099ef84208fa6859b3e4449c2909",
     "evidence/reproduce.py": "2e71006fc2408bce9b73464848114af08b7284c01dcdd36fdddc78f31d0fa229",
     "evidence/results.csv": "002a442216fed51d4464cd54e15e6b12aa05ed8267d96331c6054b79876dfb4b",
@@ -70,7 +70,10 @@
     "skills/control_requirements.md": "7280c1d5970a3694fdfe4cbe196fb73f77369e99b307a0ba2501989927d97296",
     "skills/README.md": "cb082e7dee8cc77cfb6e8b33f49b080e745d60c39e2fb429b1865608a1f3d6e4",
     "evidence/capital_reproduction.json": "68194ab0c4dbd6142cfdfd9b83cc1eea96ccba896e06e57caba8322373b81c83",
-    "evidence/check_capital_reproduction.py": "30af05dd9ff6ab43d05c1dd65d556e303f462151a77a08e63af5291a0de780e5"
+    "evidence/check_capital_reproduction.py": "30af05dd9ff6ab43d05c1dd65d556e303f462151a77a08e63af5291a0de780e5",
+    "evidence/legacy_validation_losses.json": "b33acdacb30f188ef9f6ee364b336e1d7317446e59287de6ac0ceceb5a6e964c",
+    "evidence/candidate_menu_analysis.py": "1871c486f1a57c326e74c5422f7d5e4c8bf8def049692977cd598ecfdb24a5f6",
+    "evidence/CANDIDATE_MENU_ANALYSIS.md": "8480cf01de1acff458438d332fe80d004dad2748b3c9b8eb6655a393592b85a0"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

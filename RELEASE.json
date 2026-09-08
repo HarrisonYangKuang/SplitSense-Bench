@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-dev",
+  "version": "0.1.1-dev",
   "status": "development_only",
   "scientific_validity_gate": false,
   "local_tiny_demo": "pass",
@@ -34,8 +34,11 @@
     "tasks/temporal_future/task_description.md": "e23219253d0952fa66a98e585165a66edb4a487ce0ec92d1794c8a89957ac2b7",
     "tasks/temporal_iid/task_description.md": "e268b22de1cb0fdab4c681873667cfce36209ba1c0dd3b4c82e93d3852f8e81e",
     "tasks/entity_unseen/task_description.md": "0f2c1bee127b5c21e71d4eafc51c9d57aa734112f1607badb2a267138c6851d7",
-    "benchmark.py": "b3549d40cd7f51bace0c2a169f39349aaf4985f57b071f0258e2d2019beadeab",
-    "README.md": "087186b921475d9f7fefab9f20293804c3b5f6acc1b8b5e7ca0ca01c36b145a1",
-    ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb"
-  }
+    "benchmark.py": "5ab4f9576c17735ddb959c0fcc7e7dd299722ecf221da03355fba81251b3d113",
+    "README.md": "00ec561332efd34138085fcaf17b287e1aa7626511ce9b266e751b630c0ff55e",
+    ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
+    "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
+    ".github/workflows/interface.yml": "62a11f3c5284d0ac32c5711aa88a6febcedca62c7d2ad735fb76f660ac07aa0f"
+  },
+  "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

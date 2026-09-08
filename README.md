@@ -41,3 +41,7 @@ The original 9-candidate/40-development-instance challenge did not pass the froz
 The current public package contains synthetic generators and scoring code only, not credentials, private datasets, private trajectories or proprietary weights. Broader evidence publication and validated tasks remain ongoing work. Do not use this development score as a model capability claim.
 
 中文：这是可运行的开发版，包含任务生成、九候选演示和提交评分。任务尚未通过科研有效性门；不代表已证明Agent缺陷或Skill有效。完整研究目标仍在进行。
+
+## Automated interface verification
+
+[CI runs](https://github.com/HarrisonYangKuang/SplitSense-Bench/actions/workflows/interface.yml) execute all four development demos, check paired training and exported file boundaries, and reject malformed submissions. These checks establish software behavior, not research validity or OS-level isolation. Run locally with `python3 -m unittest discover -s tests -v`; research sweeps should use cloud resources.

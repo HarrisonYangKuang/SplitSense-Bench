@@ -73,3 +73,7 @@ The [post-commit grader](harness/README.md#post-commit-scoring-command) complete
 ### SplitSense Skill
 
 The [development checklist and usage contract](skills/README.md) provide deployment-aware validation guidance compatible with the public session. The intervention has not been evaluated for effectiveness; a tokenizer-matched control is not yet available.
+
+### Independent implementation comparison
+
+[Saved v33 results](evidence/capital_reproduction.json) support a [90-loss comparison](evidence/check_capital_reproduction.py) with the original Capital study: `python3 evidence/check_capital_reproduction.py`. Separate implementation by the same AI, same instances and estimators; not external review. The comparison reproduces the failed validity gate and does not establish Agent performance. Source for rerunning the fits is `experiments/capital_independent_v33.py`; this check only compares saved results.

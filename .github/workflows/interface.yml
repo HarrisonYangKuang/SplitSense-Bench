@@ -23,3 +23,6 @@ jobs:
 
       - name: Recompute paired-history boundary cases
         run: python3 evidence/history_ambiguity.py
+
+      - name: Compare saved independent implementation results
+        run: python3 evidence/check_capital_reproduction.py

@@ -1,5 +1,5 @@
 {
-  "status": "prepared_single_dispatch",
+  "status": "completed",
   "request": {
     "slug": "yangkuangou/splitsense-appliances-pilot-v38",
     "new_title": "SplitSense Appliances Pilot v38",
@@ -21,5 +21,8 @@
   "protocol_sha256": "17212ec58d2cc5c499ed9d7fe774be7f6ec048f5dbd356d8f5dd3f95bdcaf094",
   "cash_cap": 0,
   "fit_cap": 75,
-  "retry_cap": 0
+  "retry_cap": 0,
+  "version": 1,
+  "kernel_id": 133553170,
+  "screen_pass": false
 }

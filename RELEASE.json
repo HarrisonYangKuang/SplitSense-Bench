@@ -83,7 +83,9 @@
     "evidence/appliances_v37_inventory.json": "f791a459851303630131c6585b8ebb5dccea299be8e8b34dd9e762c30ce21b2e",
     "experiments/APPLIANCES_V38_PROTOCOL.md": "17212ec58d2cc5c499ed9d7fe774be7f6ec048f5dbd356d8f5dd3f95bdcaf094",
     "experiments/appliances_pilot_v38.py": "adea3a1cc236de44763b645200c4a53ae3bae1f5c7a423a56ec2e3ce82850466",
-    "experiments/appliances_v38_launch.json": "9b855090fee13e3cfd992a2430c92df0d5b549cf63a9d1dee4f5c5b9d2033c10"
+    "experiments/appliances_v38_launch.json": "196ead05c34ccb0f63bef51dd88386608358713c2556a792c50974672842d910",
+    "evidence/appliances_v38_results.json": "46b969e9bbd3c3bc53e8335776f4ccc81c80aef4ed6f8a64dc84e70fd4547736",
+    "research/APPLIANCES_V38_RESULT.md": "773734309325b5d71a2746c0f3232208da21e6df86f3d11ebb74dac9d6a2970e"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

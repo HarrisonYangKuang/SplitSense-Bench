@@ -76,7 +76,7 @@
     "evidence/CANDIDATE_MENU_ANALYSIS.md": "5058952b1256a3aec003b3b900cdf0ea6cc15f7036e0e77f92409eb5c4c05909",
     "evidence/candidate_menu_results.json": "a1d3cc8b5d2d856b6f6b72fc40de0ba64a226eba00d9fd224dbb9e30bd55b9f3",
     "RESEARCH_STATUS.md": "6ab606d7294f83702f97f92925b034c873f5d8f22f1c3a8473689fe9b7b317fb",
-    "research/TEMPORAL_REFIT_TRANSFER_SCREEN.md": "0cd53a9b738aa053c28b94f5ab5879a76dab4a9e65cb3477c45121dca48ce6f8"
+    "research/TEMPORAL_REFIT_TRANSFER_SCREEN.md": "e69fe56fefce29a6bff619946a0d099b1dbf87232f31983b62aa420718b7bc1f"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

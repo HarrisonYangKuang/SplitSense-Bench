@@ -45,3 +45,7 @@ The current public package contains synthetic generators and scoring code only, 
 ## Automated interface verification
 
 [CI runs](https://github.com/HarrisonYangKuang/SplitSense-Bench/actions/workflows/interface.yml) execute all four development demos, check paired training and exported file boundaries, and reject malformed submissions. These checks establish software behavior, not research validity or OS-level isolation. Run locally with `python3 -m unittest discover -s tests -v`; research sweeps should use cloud resources.
+
+## Inspect the experimental evidence
+
+[Public evidence capsule](evidence/README.md) includes 30 saved cases and a standard-library table reproducer. Run `python3 evidence/reproduce.py`. Coverage and raw-data limitations are explicit; this is not a model leaderboard.

@@ -21,3 +21,7 @@ Before any formal comparison, freeze the full rendered prompts, model identifier
 The fixed candidate/tool library supports deployment interpretation, validation choice, interpretation of returned losses, and explicit selection. It does not measure unrestricted preprocessing or model implementation. A checklist item about preprocessing therefore asks the responder to inspect available evidence, not claim it wrote or audited an arbitrary training pipeline.
 
 Task validity remains unestablished. Do not run a formal capability or Skill-effect study on these development tasks and label it validated. No control prompt, token-match result, human review, or Skill benefit is claimed here. Historical experiments and previous checklist versions are not retroactively assigned this intervention.
+
+## Conditional-validation revision
+
+The development checklist now explicitly distinguishes time indexing from evidence that random validation is unsuitable. See [source scope and applicability limits](../research/TEMPORAL_VALIDITY_ASSUMPTIONS.md). This changes the intervention text; it is not retroactively applied to earlier runs and must be separately frozen before evaluation.

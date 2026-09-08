@@ -16,7 +16,7 @@ def main():
  s.add_parser('list');d=s.add_parser('demo');d.add_argument('--task',choices=common.TASK_IDS,default='temporal_future');d.add_argument('--seed',type=int,default=101)
  g=s.add_parser('grade');g.add_argument('--submission',required=True);g.add_argument('--hidden',required=True)
  a=p.parse_args()
- if a.command=='list':out={'version':'0.1.4-dev','validity_gate_passed':False,'development_tasks':common.TASK_IDS}
+ if a.command=='list':out={'version':'0.1.5-dev','validity_gate_passed':False,'development_tasks':common.TASK_IDS}
  elif a.command=='demo':out=demo(a.task,a.seed)
  else:
   with open(a.submission,newline='') as f:submission=list(csv.DictReader(f))

@@ -59,3 +59,7 @@ The [original 40-instance challenge](evidence/legacy_results.csv) is also public
 ## Read the report
 
 The [8-page technical report](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/SplitSense_report.pdf) is the frozen v32 stage report. Read it together with the [later-results addendum](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/REPORT_ADDENDUM.md), covering independent reproduction and v36. The [zoomable figure](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/Fig1.svg) and [caption](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/Fig1_caption.md) describe the earlier 31-case snapshot; the figure does not include v36. These are stage findings, not a final validated benchmark report.
+
+## Connect a text responder
+
+The [training-only Agent interface](harness/README.md) supports bounded evaluate/commit actions over stdin/stdout, with explicit receipts and failure handling. It does not include a paid model client or claim OS-level isolation.

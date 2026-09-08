@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4-dev",
+  "version": "0.1.5-dev",
   "status": "development_only",
   "scientific_validity_gate": false,
   "local_tiny_demo": "pass",
@@ -34,8 +34,8 @@
     "tasks/temporal_future/task_description.md": "e23219253d0952fa66a98e585165a66edb4a487ce0ec92d1794c8a89957ac2b7",
     "tasks/temporal_iid/task_description.md": "e268b22de1cb0fdab4c681873667cfce36209ba1c0dd3b4c82e93d3852f8e81e",
     "tasks/entity_unseen/task_description.md": "0f2c1bee127b5c21e71d4eafc51c9d57aa734112f1607badb2a267138c6851d7",
-    "benchmark.py": "bc73b645b3ab8d86ae7990c8570ac49887ed8f5fb7f84c41a92af94ab5782816",
-    "README.md": "b1a360433e650e2d110204012e0f6abce93a3c5e2508d895ba118d23402af07f",
+    "benchmark.py": "678df72cf040dfc9a6c8da631ceb585998e8c8984a2ecaad5e09bf4611d13682",
+    "README.md": "05bbd6848dd7193d67630449b528c138a6f11a4e7eef569ff80b89a5261c5135",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
     ".github/workflows/interface.yml": "e432f7c72c9d88ff7ee14e630dd3544f593853ce2411d34e3b95e5badece0f96",
@@ -54,7 +54,14 @@
     "evidence/legacy_cases.json": "beb5192e6b0f9044c2a44b86566095fa8d5eee9c69dd69b3a98714bd315c5a28",
     "evidence/legacy_results.csv": "d1817c8fae48a371ab3dc00ce417ea932525bad310403c7e44127c12ce2e4de5",
     "evidence/verify_legacy.py": "dea11e532bf785d845f5a3f102c16ac578e1dfd265d7ed8eea70eb2636ce1f5f",
-    "evidence/report_assets.json": "5deeeeb4c3ed55c0ff7e728c47c090abafbe618a703a7cebae00c4b7bc575cae"
+    "evidence/report_assets.json": "5deeeeb4c3ed55c0ff7e728c47c090abafbe618a703a7cebae00c4b7bc575cae",
+    "harness/__init__.py": "88e54683d776cc13151e2bf5aff4bcc2e6e90bba08ffa70020ce3e96452999cf",
+    "harness/controlled_session_v03.py": "8c0fc23a2beeaf06d4c339c511f6504645289d9d28c872929a931352e94f15b0",
+    "harness/controlled_session_v03a.py": "96f572f800827e515371e157c73888c337824076e3d47cae918022d453277993",
+    "harness/phase_session_v04.py": "29dc7618ab45ebcaee458b083836b7bc2463e62eabb08f425122675d03790e65",
+    "harness/pipe_session.py": "5c32d569ae7123681b507eeba0f78691b206309ecfe8860d7853fd37e953e1aa",
+    "tests/test_session_contract.py": "a36264a349fc92c5cae55aeee7f299efec86888e400a1559ff57a833ca20150b",
+    "harness/README.md": "ac7acc7efa1f9a0e7c55dabdb5f8d52f3445f669740168414b603a6e7ec47f62"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

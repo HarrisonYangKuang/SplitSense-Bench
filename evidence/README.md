@@ -10,4 +10,12 @@ Capital v28: positive D in 3/5 blocks, median 0.171429. Multi-window v36: positi
 
 The capsule is a schema-whitelisted derivative of saved loss reports. Each original compressed report's SHA256 appears in cases.json for provenance. Original data/prediction files are not bundled: these hashes alone do not make independent training reproduction possible. No credentials or private raw datasets are included.
 
-Coverage is explicitly partial: the earlier 40-instance challenge, Cooking v21, Seoul v25, failed Beijing v31 and independent-implementation v33 evidence are not in this capsule. They must not be treated as absent failures or zero-valued results. Broader public reproducibility remains incomplete.
+Coverage is explicitly partial: Cooking v21, Seoul v25, failed Beijing v31 and independent-implementation v33 evidence are not in this capsule. They must not be treated as absent failures or zero-valued results. Broader public reproducibility remains incomplete.
+
+## Original 40-instance challenge
+
+legacy_cases.json and legacy_results.csv now preserve every original challenge instance under BOTH the five-candidate and nine-candidate libraries. Run `python3 evidence/verify_legacy.py`. It checks 80 effects and all eight group/family/library gate decisions. There are 40 task instances, not 80 independent samples: each deployment pair shares training data, and both libraries reuse the same instance. Both seed groups are development data, including the group historically named confirmation_development; neither is a hidden test set.
+
+The original five-candidate library passed these development gates, while the stronger nine-candidate library failed all four family-by-seed-group gates with zero difficult-member effect passes in each group of five. Both outcomes are retained to show why the early positive result did not survive stronger candidates. A more favorable small candidate library must not be used to declare the benchmark scientifically validated.
+
+Utility in the old records is negative MSE, so E=(aligned utility-random utility)/training target variance. The effect threshold 0.05 and required four passes out of five are frozen screening rules, not p-values. Original-summary hashes establish provenance, not independent reconstruction of labels or fitted models. The public generator and libraries permit additional reproduction, but this check itself only recomputes saved scores and pair gates.

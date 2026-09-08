@@ -53,3 +53,5 @@ The current public package contains synthetic generators and scoring code only, 
 ## Re-run original experiments
 
 [Cloud reproduction guide](experiments/README.md) provides four original executed scripts, source hashes and the recorded runtime. Source verification is automated; cloud training reproduction has additional environment requirements and is not silently replaced by table arithmetic.
+
+The [original 40-instance challenge](evidence/legacy_results.csv) is also public, retaining both five- and nine-candidate results. Verify with `python3 evidence/verify_legacy.py`.

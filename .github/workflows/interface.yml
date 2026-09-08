@@ -18,3 +18,5 @@ jobs:
         run: python3 evidence/reproduce.py
       - name: Verify frozen experiment source provenance
         run: python3 experiments/verify_sources.py
+      - name: Verify original forty-instance challenge
+        run: python3 evidence/verify_legacy.py

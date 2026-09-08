@@ -38,7 +38,7 @@
     "README.md": "05be644971d0eb9f2ff74bd714c5bd59087fefbb3707f5615fe4b895a7566ecb",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
-    ".github/workflows/interface.yml": "23776f7c1e5ffbba8ff300891bfaefd30044b98a5fba7e99436679e5bc1ba7bc",
+    ".github/workflows/interface.yml": "547f36b22635bd2427b7e867f69a7a83534b2f51e9237b34e37b549a47d33552",
     "evidence/cases.json": "c0cfc98035bc59f785e3474fde0ef2e99654099ef84208fa6859b3e4449c2909",
     "evidence/reproduce.py": "2e71006fc2408bce9b73464848114af08b7284c01dcdd36fdddc78f31d0fa229",
     "evidence/results.csv": "002a442216fed51d4464cd54e15e6b12aa05ed8267d96331c6054b79876dfb4b",
@@ -91,7 +91,8 @@
     "evidence/appliances_v38/predictions.json.gz": "9bef2a2e7508ac134959c6c11ee207d48f89aaaf92633a236f9967a3c324a111",
     "evidence/check_appliances_predictions.py": "183ca961de17ac80d94ddb98cbf61f8a4840ee24d9166e538c7f2505231d5384",
     "evidence/appliances_v38/README.md": "9a8ab6b6f789d22f06cba0cc7558b8589f5fb9c6d8f96c016c39f855ef59cd33",
-    "research/REPORT_UPDATE_V38.md": "912197cd4ad4c60e46a3baf7897e73ddc97f7d99700c879970140c260c1d9c12"
+    "research/REPORT_UPDATE_V38.md": "912197cd4ad4c60e46a3baf7897e73ddc97f7d99700c879970140c260c1d9c12",
+    "evidence/refit_decomposition.py": "da446797de9e5aad19a0addd08620bd305ddc703018d94ccaffae9df925cd52e"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

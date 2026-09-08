@@ -32,3 +32,6 @@ jobs:
 
       - name: Independently audit saved v38 predictions
         run: python3 evidence/check_appliances_predictions.py
+
+      - name: Decompose retained versus common-refit results
+        run: python3 evidence/refit_decomposition.py

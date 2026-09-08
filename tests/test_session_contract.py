@@ -1,4 +1,6 @@
-import json,unittest
+import json,unittest,tempfile,subprocess,sys
+from pathlib import Path
+from tasks.common import export_instance
 from tasks.common import generate
 from harness.phase_session_v04 import PhaseSession,run_session
 class SessionContract(unittest.TestCase):
@@ -18,4 +20,11 @@ class SessionContract(unittest.TestCase):
   result=run_session(fresh,fail)
   self.assertEqual(result['session']['status'],'incomplete');self.assertEqual(result['attempted_responses'],1)
   self.assertIsNone(result['session']['commit'])
+ def test_pipe_cli_records_explicit_commit(self):
+  with tempfile.TemporaryDirectory() as folder:
+   root=Path(folder);export_instance(generate('temporal_future',101),root/'agent',root/'evaluator')
+   actions=[{'action':'evaluate','split':'forward_time'},{'action':'commit','split':'forward_time','candidate_id':'train_mean','reason':'Transport fixture.'}]
+   p=subprocess.run([sys.executable,'-m','harness.pipe_session','--train',str(root/'agent/train.csv'),'--brief',str(root/'agent/task_description.md'),'--receipt',str(root/'receipt.json')],input=''.join(json.dumps(a)+'\n' for a in actions),capture_output=True,text=True,timeout=15,check=True)
+   end=json.loads(p.stdout.splitlines()[-1]);self.assertEqual(end['status'],'committed')
+   receipt=json.loads((root/'receipt.json').read_text());self.assertEqual(receipt['session']['commit']['candidate_id'],'train_mean');self.assertEqual(receipt['attempted_responses'],2)
 if __name__=='__main__':unittest.main()

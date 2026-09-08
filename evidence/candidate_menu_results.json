@@ -1,0 +1,222 @@
+{
+  "scope": "post-hoc fixed-score menu restriction; no new-data or Agent claim; not full validity gate",
+  "results": [
+    {
+      "menu": "original_five",
+      "group": "confirmation_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 0.182974775881653,
+      "same_selection": 0
+    },
+    {
+      "menu": "original_five",
+      "group": "confirmation_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 1.6367410279203694,
+      "same_selection": 0
+    },
+    {
+      "menu": "original_five",
+      "group": "original_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 4,
+      "median_effect": 0.1735018727567563,
+      "same_selection": 0
+    },
+    {
+      "menu": "original_five",
+      "group": "original_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 1.8071890715962684,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_global_linear_entity_residual",
+      "group": "confirmation_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": -0.0008109788710748219,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_global_linear_entity_residual",
+      "group": "confirmation_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 1.6367410279203694,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_global_linear_entity_residual",
+      "group": "original_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_global_linear_entity_residual",
+      "group": "original_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 1.8071890715962684,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_entity_fixed_effects_linear",
+      "group": "confirmation_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": -0.006158339138170569,
+      "same_selection": 2
+    },
+    {
+      "menu": "add_entity_fixed_effects_linear",
+      "group": "confirmation_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 1.6367410279203694,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_entity_fixed_effects_linear",
+      "group": "original_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 2
+    },
+    {
+      "menu": "add_entity_fixed_effects_linear",
+      "group": "original_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 1.8071890715962684,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_time_linear_interaction",
+      "group": "confirmation_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 0.182974775881653,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_time_linear_interaction",
+      "group": "confirmation_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 5
+    },
+    {
+      "menu": "add_time_linear_interaction",
+      "group": "original_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 4,
+      "median_effect": 0.1735018727567563,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_time_linear_interaction",
+      "group": "original_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 5
+    },
+    {
+      "menu": "add_time_hinge_interaction",
+      "group": "confirmation_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 5,
+      "median_effect": 0.182974775881653,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_time_hinge_interaction",
+      "group": "confirmation_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 5
+    },
+    {
+      "menu": "add_time_hinge_interaction",
+      "group": "original_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 4,
+      "median_effect": 0.1735018727567563,
+      "same_selection": 0
+    },
+    {
+      "menu": "add_time_hinge_interaction",
+      "group": "original_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 5
+    },
+    {
+      "menu": "augmented_nine",
+      "group": "confirmation_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": -5.22233537170702e-05,
+      "same_selection": 1
+    },
+    {
+      "menu": "augmented_nine",
+      "group": "confirmation_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 5
+    },
+    {
+      "menu": "augmented_nine",
+      "group": "original_development",
+      "task": "entity_unseen",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 2
+    },
+    {
+      "menu": "augmented_nine",
+      "group": "original_development",
+      "task": "temporal_future",
+      "n": 5,
+      "effect_above_0_05": 0,
+      "median_effect": 0.0,
+      "same_selection": 5
+    }
+  ],
+  "cloud_run": "https://github.com/HarrisonYangKuang/SplitSense-Bench/actions/runs/34225817873"
+}

@@ -1,0 +1,16 @@
+{
+  "source_sha256": {
+    "experiments/synthetic_v26.py": "4ce030bc43ef6bfbc9f25f471c9f5143194125278821322c49ab5afac0bc6469",
+    "experiments/capital_v28.py": "f2243862977f909b04a44b3b29724a131d0a175c5d9158c7b0cb71e979efcbcc",
+    "experiments/capital_independent_v33.py": "9cfc4202c4c269128eb803b502db1ad8e8324d80228a002ea0d7a2f3d81159b2",
+    "experiments/multiwindow_v36.py": "5c21c9a8f9acc4a039263b05babb73dfbe7e5cdb73d2d0aafa84566e75ce9c31"
+  },
+  "original_environment": {
+    "python": "3.12.13",
+    "numpy": "2.0.2",
+    "scikit-learn": "1.6.1",
+    "threadpoolctl": "3.6.0",
+    "image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9"
+  },
+  "scope": "Original executed source bytes. No new execution or validation claim. Current platform image availability is not guaranteed."
+}

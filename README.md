@@ -49,3 +49,7 @@ The current public package contains synthetic generators and scoring code only, 
 ## Inspect the experimental evidence
 
 [Public evidence capsule](evidence/README.md) includes 30 saved cases and a standard-library table reproducer. Run `python3 evidence/reproduce.py`. Coverage and raw-data limitations are explicit; this is not a model leaderboard.
+
+## Re-run original experiments
+
+[Cloud reproduction guide](experiments/README.md) provides four original executed scripts, source hashes and the recorded runtime. Source verification is automated; cloud training reproduction has additional environment requirements and is not silently replaced by table arithmetic.

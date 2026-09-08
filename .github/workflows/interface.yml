@@ -16,3 +16,5 @@ jobs:
         run: python3 -m unittest discover -s tests -v
       - name: Reproduce public evidence table
         run: python3 evidence/reproduce.py
+      - name: Verify frozen experiment source provenance
+        run: python3 experiments/verify_sources.py

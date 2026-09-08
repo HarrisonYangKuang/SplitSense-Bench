@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2-dev",
+  "version": "0.1.3-dev",
   "status": "development_only",
   "scientific_validity_gate": false,
   "local_tiny_demo": "pass",
@@ -34,15 +34,23 @@
     "tasks/temporal_future/task_description.md": "e23219253d0952fa66a98e585165a66edb4a487ce0ec92d1794c8a89957ac2b7",
     "tasks/temporal_iid/task_description.md": "e268b22de1cb0fdab4c681873667cfce36209ba1c0dd3b4c82e93d3852f8e81e",
     "tasks/entity_unseen/task_description.md": "0f2c1bee127b5c21e71d4eafc51c9d57aa734112f1607badb2a267138c6851d7",
-    "benchmark.py": "6e70a8b76727620d56972b613b12369ee5f3df74eba22db7a1890f854e43410c",
-    "README.md": "6cbbe978f72c0fe53541f7858db7693e1a2619d214a1cd1d5c37693f5daf19a5",
+    "benchmark.py": "f1c9430ec4ca8d27c20f393dc4b09ca4597927e7562599a9ecc116ada7aa0ff6",
+    "README.md": "ded7bf8d3b890108d3d67342ec2817d3e0d77872ef5c062d00cb07593b006160",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
-    ".github/workflows/interface.yml": "d790ba5d2830ff1ebb65e703d232d5e5ce610ced50f98b780cc078f213dedfd5",
+    ".github/workflows/interface.yml": "7780c02dc13426255019ea8894a4bf255c15f8d70c9a577c74f39a1b81a802b3",
     "evidence/cases.json": "c0cfc98035bc59f785e3474fde0ef2e99654099ef84208fa6859b3e4449c2909",
     "evidence/reproduce.py": "2e71006fc2408bce9b73464848114af08b7284c01dcdd36fdddc78f31d0fa229",
     "evidence/results.csv": "002a442216fed51d4464cd54e15e6b12aa05ed8267d96331c6054b79876dfb4b",
-    "evidence/README.md": "55034559bf6295d2bc7f089421913fdf691ca98d854928017de97c4ad0d16f95"
+    "evidence/README.md": "55034559bf6295d2bc7f089421913fdf691ca98d854928017de97c4ad0d16f95",
+    "experiments/synthetic_v26.py": "4ce030bc43ef6bfbc9f25f471c9f5143194125278821322c49ab5afac0bc6469",
+    "experiments/capital_v28.py": "f2243862977f909b04a44b3b29724a131d0a175c5d9158c7b0cb71e979efcbcc",
+    "experiments/capital_independent_v33.py": "9cfc4202c4c269128eb803b502db1ad8e8324d80228a002ea0d7a2f3d81159b2",
+    "experiments/multiwindow_v36.py": "5c21c9a8f9acc4a039263b05babb73dfbe7e5cdb73d2d0aafa84566e75ce9c31",
+    "experiments/FROZEN.json": "26acb35b9e00588a16ff78fdd3ad8881e8d92e093dea9f72eadec3839d3fc64d",
+    "experiments/requirements.txt": "fda385d2ddc4d6e34a7b277e50064bd217f559ad246234311436907b1f80cd59",
+    "experiments/verify_sources.py": "91fd5e3ff9d92b80a4d355268bd90958a56d8052a1a4f1916d0f638ae5f08e20",
+    "experiments/README.md": "300886686536dc8da19dc41ef9da746ced9315ac5ba99dc265380b368c14fee5"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

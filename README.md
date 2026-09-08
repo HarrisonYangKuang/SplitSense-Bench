@@ -77,3 +77,7 @@ The [development checklist and usage contract](skills/README.md) provide deploym
 ### Independent implementation comparison
 
 [Saved v33 results](evidence/capital_reproduction.json) support a [90-loss comparison](evidence/check_capital_reproduction.py) with the original Capital study: `python3 evidence/check_capital_reproduction.py`. Separate implementation by the same AI, same instances and estimators; not external review. The comparison reproduces the failed validity gate and does not establish Agent performance. Source for rerunning the fits is `experiments/capital_independent_v33.py`; this check only compares saved results.
+
+## Research completion status
+
+See [the v0.1.7-dev completion ledger](RESEARCH_STATUS.md) for delivered components, missing evidence, and the boundary between this usable development release and a validated research benchmark.

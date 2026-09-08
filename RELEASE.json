@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6-dev",
+  "version": "0.1.7-dev",
   "status": "development_only",
   "scientific_validity_gate": false,
   "local_tiny_demo": "pass",
@@ -34,8 +34,8 @@
     "tasks/temporal_future/task_description.md": "e23219253d0952fa66a98e585165a66edb4a487ce0ec92d1794c8a89957ac2b7",
     "tasks/temporal_iid/task_description.md": "e268b22de1cb0fdab4c681873667cfce36209ba1c0dd3b4c82e93d3852f8e81e",
     "tasks/entity_unseen/task_description.md": "0f2c1bee127b5c21e71d4eafc51c9d57aa734112f1607badb2a267138c6851d7",
-    "benchmark.py": "92d18b68dcd657c1749e029b04abe659fd22628978b0d2902e71e45a98b01f01",
-    "README.md": "c8376ec1c0a3a7947b9d95e17c2b75cd7474840dab8fbbd976e0f82f878ce6a6",
+    "benchmark.py": "ddcf411b2c7bf931082678fafb3728f9fef724af00aa93aec83b063803977e6e",
+    "README.md": "bd7bd99b6620f676d345bc70d9dd83f58c9b0ede85c1b6b81701336d850819f0",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
     ".github/workflows/interface.yml": "7d2214b0be62f89b870ff8b9e44b5abe2a161654d52e3126b719aa07c7574375",
@@ -74,7 +74,8 @@
     "evidence/legacy_validation_losses.json": "b33acdacb30f188ef9f6ee364b336e1d7317446e59287de6ac0ceceb5a6e964c",
     "evidence/candidate_menu_analysis.py": "1871c486f1a57c326e74c5422f7d5e4c8bf8def049692977cd598ecfdb24a5f6",
     "evidence/CANDIDATE_MENU_ANALYSIS.md": "5058952b1256a3aec003b3b900cdf0ea6cc15f7036e0e77f92409eb5c4c05909",
-    "evidence/candidate_menu_results.json": "a1d3cc8b5d2d856b6f6b72fc40de0ba64a226eba00d9fd224dbb9e30bd55b9f3"
+    "evidence/candidate_menu_results.json": "a1d3cc8b5d2d856b6f6b72fc40de0ba64a226eba00d9fd224dbb9e30bd55b9f3",
+    "RESEARCH_STATUS.md": "6ab606d7294f83702f97f92925b034c873f5d8f22f1c3a8473689fe9b7b317fb"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

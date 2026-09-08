@@ -4,6 +4,8 @@ A runnable diagnostic toolkit for studying how deployment descriptions and valid
 
 **Status: development tasks, not a validated Agent leaderboard.** The four synthetic tasks failed our stronger-candidate validity gate. No claim of systematic Agent failure or Skill improvement is supported. This release makes the implementations inspectable and runnable; it does not turn negative research results into a successful benchmark.
 
+Download the [v0.1.8-dev source package](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/tag/v0.1.8-dev) for a fixed snapshot including the v38 prediction evidence, refit comparison and revised Skill. The Appliances research pilot is evidence, not an additional validated Agent task.
+
 ## Quick start
 
 Python 3.10+; standard library only. No API keys, installation, GPU or network required after cloning.
@@ -38,7 +40,7 @@ Generator: 0.1.0-prototype. Default demo candidate library: 0.2.0-strong-candida
 
 The original 9-candidate/40-development-instance challenge did not pass the frozen gate. Subsequent Cooking, Seoul, Capital and multi-window diagnostics also did not establish stable task validity. No formal Agent/Skill comparison or external human review has been completed. Thus no leaderboard or model capability ranking is provided.
 
-The current public package contains synthetic generators and scoring code only, not credentials, private datasets, private trajectories or proprietary weights. Broader evidence publication and validated tasks remain ongoing work. Do not use this development score as a model capability claim.
+The public package contains synthetic generators, scoring code, frozen experiment scripts, aggregate results, and compressed v38 predictions with source attribution. It contains no credentials or proprietary weights. Validated tasks and formal Agent trajectories remain ongoing work. Do not use this development score as a model capability claim.
 
 中文：这是可运行的开发版，包含任务生成、九候选演示和提交评分。任务尚未通过科研有效性门；不代表已证明Agent缺陷或Skill有效。完整研究目标仍在进行。
 
@@ -80,6 +82,6 @@ The [development checklist and usage contract](skills/README.md) provide deploym
 
 ## Research completion status
 
-See [the v0.1.7-dev completion ledger](RESEARCH_STATUS.md) for delivered components, missing evidence, and the boundary between this usable development release and a validated research benchmark.
+See [the v0.1.8-dev completion ledger](RESEARCH_STATUS.md) for delivered components, missing evidence, and the boundary between this usable development release and a validated research benchmark.
 
 Latest research narrative: [中文报告补充：截至 v38](research/REPORT_UPDATE_V38.md). This supplements the frozen earlier PDF; it does not establish formal Agent or Skill results.

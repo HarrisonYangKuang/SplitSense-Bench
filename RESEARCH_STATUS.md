@@ -1,4 +1,4 @@
-# Research status at v0.1.7-dev
+# Research status at v0.1.8-dev
 
 This is a public runnable development benchmark and evidence package. The long-term research objective remains incomplete.
 
@@ -9,10 +9,10 @@ This is a public runnable development benchmark and evidence package. The long-t
 | Baselines and finite-library reference | `benchmark.py`, candidate utilities | Finite sample best is not a population oracle; legacy wrappers have a smaller library |
 | Agent trajectories and comparisons | No formal capability results in this release | Valid tasks, frozen protocol, verified model access, matched repeated runs, and public eligible trajectories |
 | SplitSense Skill | `skills/` checklist and usage contract | No measured benefit; tokenizer-matched neutral control absent |
-| Experimental evidence | `evidence/`: original 40-instance challenge; v26/v28/v36 aggregates; v33 independent implementation | Aggregate losses are not all raw predictions; Cooking, Seoul and Beijing evidence is not fully bundled |
+| Experimental evidence | `evidence/`: original 40-instance challenge; v26/v28/v36 aggregates; v33 independent implementation; v38 compressed predictions and coverage | Earlier aggregate losses are not all raw predictions; Cooking, Seoul and Beijing evidence is not fully bundled |
 | Reproduction | Frozen source files, saved-score checks, 90-loss v33 comparison | Same-AI implementation is not external replication; CI arithmetic is not retraining |
-| Analysis | Tables, paired-history boundary, single-candidate additions | Post-hoc analyses do not pass original gates or establish a general Agent defect |
-| Report and figures | Earlier eight-page PDF and addendum linked from README | Frozen report predates newest public analyses; not a final integrated submission |
+| Analysis | Tables, paired-history boundary, single-candidate additions, v38 retained/common-refit contrast | Post-hoc analyses do not pass original gates or establish a general Agent defect |
+| Report and figures | Earlier eight-page PDF, addendum, and Chinese v38 narrative linked from README | Frozen PDF predates v38; newer Markdown supplements it, not a final integrated submission |
 | External review | None claimed | Human review is not required to continue internal work, but remains absent evidence |
 | Formal frozen v1 / new-model blind evaluation | Not reached | No unseen-instance formal Agent or Skill comparison |
 | Kaggle benchmark page | Not published | Optional; current public distribution is GitHub |
@@ -34,6 +34,12 @@ python3 evidence/history_ambiguity.py
 python3 evidence/check_capital_reproduction.py
 python3 evidence/candidate_menu_analysis.py
 python3 experiments/verify_sources.py
+python3 evidence/check_appliances_predictions.py
+python3 evidence/refit_decomposition.py
 ```
 
 Each command has a limited claim documented beside its inputs. The candidate-menu command prints its recomputed table; the stored `candidate_menu_results.json` also records its original cloud run. No paid API, model download, or training is needed for these commands.
+
+## v38 release decision
+
+Five Appliances episodes did not pass the frozen ranking gate. Retaining the internally fitted models did not establish stable forward-validation benefit either. All 175 saved prediction losses have a public arithmetic verifier. No new training or new Agent comparison is introduced by this release. The Skill text has changed to state conditional applicability of random validation; its effectiveness remains untested. See `research/REPORT_UPDATE_V38.md`, `research/APPLIANCES_REFIT_DECOMPOSITION.md`, and `research/TEMPORAL_VALIDITY_ASSUMPTIONS.md`.

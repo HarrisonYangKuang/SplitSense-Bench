@@ -35,7 +35,7 @@
     "tasks/temporal_iid/task_description.md": "e268b22de1cb0fdab4c681873667cfce36209ba1c0dd3b4c82e93d3852f8e81e",
     "tasks/entity_unseen/task_description.md": "0f2c1bee127b5c21e71d4eafc51c9d57aa734112f1607badb2a267138c6851d7",
     "benchmark.py": "92d18b68dcd657c1749e029b04abe659fd22628978b0d2902e71e45a98b01f01",
-    "README.md": "4380e895add354f226504b5eab3a42a806d4040d088f58ec8ef066224211743e",
+    "README.md": "c328e023621582982aafbfd313ada79e78d31fdd337818d827c4b48aeebf4e3d",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
     ".github/workflows/interface.yml": "71ba12c8559365b39025bef0c8355dafc8bbb5057b768c2da94db8a28a3b8eed",
@@ -65,7 +65,10 @@
     "harness/grade_session.py": "9715d1ddbfc36f9af93a285a29370ae76e5e49c8837d27adccc97b2e5d184657",
     "evidence/history_ambiguity.py": "cc423a859a9647236345f9bbcd637e6f7ca71c1a7f1fef9d56276a3ebbc0c8a1",
     "evidence/history_ambiguity.csv": "cd28af394d78cbe2321ae59362f44be66f61f8d7371a69a2d2a047e9492e0e69",
-    "evidence/HISTORY_AMBIGUITY.md": "1871986f3ff45f520dacee7e227971129c75543469e99feedcb1d99b4741104d"
+    "evidence/HISTORY_AMBIGUITY.md": "1871986f3ff45f520dacee7e227971129c75543469e99feedcb1d99b4741104d",
+    "skills/validation_checklist.md": "5d47ee67936c2a2a0dbfa1dabef1c23b530de2171f9d39f478d6d18ce3cb1512",
+    "skills/control_requirements.md": "7280c1d5970a3694fdfe4cbe196fb73f77369e99b307a0ba2501989927d97296",
+    "skills/README.md": "cb082e7dee8cc77cfb6e8b33f49b080e745d60c39e2fb429b1865608a1f3d6e4"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

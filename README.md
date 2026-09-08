@@ -69,3 +69,7 @@ The [post-commit grader](harness/README.md#post-commit-scoring-command) complete
 ### When a model-selection penalty is not an Agent error
 
 [Paired-history boundary cases](evidence/HISTORY_AMBIGUITY.md) and [their reproducible table](evidence/history_ambiguity.csv) document a conditional, post-hoc limit of the frozen six-candidate synthetic study. Run `python3 evidence/history_ambiguity.py` to recompute all five pairs from the public aggregate evidence. No Agent capability conclusion follows.
+
+### SplitSense Skill
+
+The [development checklist and usage contract](skills/README.md) provide deployment-aware validation guidance compatible with the public session. The intervention has not been evaluated for effectiveness; a tokenizer-matched control is not yet available.

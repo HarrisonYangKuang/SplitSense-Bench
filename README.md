@@ -65,3 +65,7 @@ The [8-page technical report](https://github.com/HarrisonYangKuang/SplitSense-Be
 The [training-only Agent interface](harness/README.md) supports bounded evaluate/commit actions over stdin/stdout, with explicit receipts and failure handling. It does not include a paid model client or claim OS-level isolation.
 
 The [post-commit grader](harness/README.md#post-commit-scoring-command) completes the public selection workflow by replaying sealed actions before opening scoring data.
+
+### When a model-selection penalty is not an Agent error
+
+[Paired-history boundary cases](evidence/HISTORY_AMBIGUITY.md) and [their reproducible table](evidence/history_ambiguity.csv) document a conditional, post-hoc limit of the frozen six-candidate synthetic study. Run `python3 evidence/history_ambiguity.py` to recompute all five pairs from the public aggregate evidence. No Agent capability conclusion follows.

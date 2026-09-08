@@ -1,0 +1,25 @@
+{
+  "status": "prepared_single_dispatch",
+  "request": {
+    "slug": "yangkuangou/splitsense-appliances-pilot-v38",
+    "new_title": "SplitSense Appliances Pilot v38",
+    "language": "python",
+    "kernel_type": "script",
+    "is_private": true,
+    "enable_gpu": false,
+    "enable_tpu": false,
+    "enable_internet": true,
+    "dataset_data_sources": [],
+    "competition_data_sources": [],
+    "kernel_data_sources": [],
+    "model_data_sources": [],
+    "category_ids": [],
+    "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+    "session_timeout_seconds": 600
+  },
+  "source_sha256": "adea3a1cc236de44763b645200c4a53ae3bae1f5c7a423a56ec2e3ce82850466",
+  "protocol_sha256": "17212ec58d2cc5c499ed9d7fe774be7f6ec048f5dbd356d8f5dd3f95bdcaf094",
+  "cash_cap": 0,
+  "fit_cap": 75,
+  "retry_cap": 0
+}

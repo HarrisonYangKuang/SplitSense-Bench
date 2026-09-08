@@ -87,7 +87,7 @@ def main():
    correlations={s:rho([rec['validation'][s]['mse'][n] for n in NAMES],[future_mse[n] for n in NAMES]) for s in ['random','forward']}
    assert all(x is not None for x in correlations.values()),'undefined ranking'
    choices=rec['choices'];retained={s:float(np.mean((np.array(rec['retained'][s][choices[s]])-target)**2)) for s in choices}
-   summary['reports'].append({'episode':rec['episode'],'variance':rec['variance'],'choices':choices,'validation_mse':{s:rec['validation'][s]['mse'] for s in choices},'future_mse':future_mse,'rho':correlations,'D':correlations['forward']-correlations['random'],'E':(future_mse[choices['random']]-future_mse[choices['forward']])/rec['variance'],'retained_selected_mse':retained,'regret':{s:future_mse[choices[s]]-min(future_mse.values()) for s in choices},'optimism_gap':{s:future_mse[choices[s]]-rec['validation'][s]['mse'][choices[s]] for s in choices}})
+   summary['reports'].append({'episode':rec['episode'],'variance':rec['variance'],'choices':choices,'validation_mse':{s:rec['validation'][s]['mse'] for s in choices},'future_mse':future_mse,'rho':correlations,'D':correlations['forward']-correlations['random'],'E':(future_mse[choices['random']]-future_mse[choices['forward']])/rec['variance'],'retained_mse':{s:{n:float(np.mean((np.array(rec['retained'][s][n])-target)**2)) for n in NAMES} for s in choices},'retained_selected_mse':retained,'regret':{s:future_mse[choices[s]]-min(future_mse.values()) for s in choices},'optimism_gap':{s:future_mse[choices[s]]-rec['validation'][s]['mse'][choices[s]] for s in choices}})
   # Separate standard-library arithmetic from reloaded saved predictions.
   loaded=json.loads(gzip.decompress((OUT/'predictions.json.gz').read_bytes()));checked=0
   for rec,report in zip(loaded,summary['reports']):
@@ -98,7 +98,11 @@ def main():
    for n in NAMES:
     err=statistics.mean((p-t)**2 for p,t in zip(rec['common'][n],rec['future_target']))
     assert math.isclose(err,report['future_mse'][n],rel_tol=1e-10,abs_tol=1e-8);checked+=1
-  assert checked==105 and summary['fits']==75
+   for strategy in ['random','forward']:
+    for n in NAMES:
+     err=statistics.mean((p-t)**2 for p,t in zip(rec['retained'][strategy][n],rec['future_target']))
+     assert math.isclose(err,report['retained_mse'][strategy][n],rel_tol=1e-10,abs_tol=1e-8);checked+=1
+  assert checked==175 and summary['fits']==75
   summary['saved_prediction_mse_checks']=checked
   ds=[r['D'] for r in summary['reports']];summary['screen_pass']=sum(d>0 for d in ds)>=4 and statistics.median(ds)>=.20
   summary['status']='complete';summary['scientific_validity_pass']=False

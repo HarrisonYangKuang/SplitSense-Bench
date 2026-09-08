@@ -1,0 +1,22 @@
+{
+  "SplitSense_report.pdf": {
+    "bytes": 32956,
+    "sha256": "66db7cc0a81d0bcf0062b402242373bf765c047309335cb0642096e59e5e33fe",
+    "public_download": "https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/SplitSense_report.pdf"
+  },
+  "REPORT_ADDENDUM.md": {
+    "bytes": 3238,
+    "sha256": "837406659f3cc1f43a12733d9edf8abcc36774e05130344f7d49fd1a2ae54de0",
+    "public_download": "https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/REPORT_ADDENDUM.md"
+  },
+  "Fig1.svg": {
+    "bytes": 59451,
+    "sha256": "bf28b1e5b237948b0514595a05bf0ca861af2e71faf9fb16b69f3f193beaee1d",
+    "public_download": "https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/Fig1.svg"
+  },
+  "Fig1_caption.md": {
+    "bytes": 1611,
+    "sha256": "8bdf475669a34c78327da8d4bc2d9c106fc1bd841552abf5f695cb0069234b5b",
+    "public_download": "https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/Fig1_caption.md"
+  }
+}

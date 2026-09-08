@@ -35,7 +35,7 @@
     "tasks/temporal_iid/task_description.md": "e268b22de1cb0fdab4c681873667cfce36209ba1c0dd3b4c82e93d3852f8e81e",
     "tasks/entity_unseen/task_description.md": "0f2c1bee127b5c21e71d4eafc51c9d57aa734112f1607badb2a267138c6851d7",
     "benchmark.py": "bc73b645b3ab8d86ae7990c8570ac49887ed8f5fb7f84c41a92af94ab5782816",
-    "README.md": "fed225afba473ced83398ba355ba3b5ed9d1a77bb4b296b28ed2c3e4b7a5c624",
+    "README.md": "b1a360433e650e2d110204012e0f6abce93a3c5e2508d895ba118d23402af07f",
     ".gitignore": "0cc60c54cbceb7fdb081f19a393aa3a64834190a93a14b49a732ce2f352207cb",
     "tests/test_public_contract.py": "f9ff3fa1961dad1f492c368aa2fafbddfa46e86588d5425951d244b9c82b1ded",
     ".github/workflows/interface.yml": "e432f7c72c9d88ff7ee14e630dd3544f593853ce2411d34e3b95e5badece0f96",
@@ -53,7 +53,8 @@
     "experiments/README.md": "300886686536dc8da19dc41ef9da746ced9315ac5ba99dc265380b368c14fee5",
     "evidence/legacy_cases.json": "beb5192e6b0f9044c2a44b86566095fa8d5eee9c69dd69b3a98714bd315c5a28",
     "evidence/legacy_results.csv": "d1817c8fae48a371ab3dc00ce417ea932525bad310403c7e44127c12ce2e4de5",
-    "evidence/verify_legacy.py": "dea11e532bf785d845f5a3f102c16ac578e1dfd265d7ed8eea70eb2636ce1f5f"
+    "evidence/verify_legacy.py": "dea11e532bf785d845f5a3f102c16ac578e1dfd265d7ed8eea70eb2636ce1f5f",
+    "evidence/report_assets.json": "5deeeeb4c3ed55c0ff7e728c47c090abafbe618a703a7cebae00c4b7bc575cae"
   },
   "verification": "CI result must be checked separately; tests are not scientific validity evidence"
 }

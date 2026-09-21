@@ -1,6 +1,6 @@
 # SplitSense Publication-P1 public claims ledger
 
-Status: `FROZEN_CANDIDATE`  
+Status: `FROZEN_PUBLIC_V1`  
 Source boundary: Diagnostic-D2 `COMPLETE_DIAGNOSTIC`, frozen by `D2_PUBLICATION_FREEZE.json`.
 
 ## SUPPORTED

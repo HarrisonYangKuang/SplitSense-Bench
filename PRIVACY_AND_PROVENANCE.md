@@ -13,4 +13,4 @@ Excluded as `PRIVATE_EVIDENCE_NOT_PUBLIC`:
 
 The public main and replication CSV files are derived from the sealed Diagnostic-D2 score bundle. World and deployment identifiers were replaced with release-local identifiers. They retain only the terminal category and the three registered endpoint indicators needed to reconstruct published counts and paired-world comparisons.
 
-All included code and prose were produced within the SplitSense-Bench project. No third-party source code or dataset is redistributed. External papers are cited by bibliographic reference and link. The candidate release uses the MIT License; the account owner should confirm this license choice before final publication.
+All included code and prose were produced within the SplitSense-Bench project. No third-party source code or dataset is redistributed. External papers are cited by bibliographic reference and link. SplitSense-Bench v1.0.0 is distributed under the MIT License; the Kaggle data artifact uses CC0-1.0.

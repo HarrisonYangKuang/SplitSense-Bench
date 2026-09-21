@@ -43,4 +43,4 @@ Private cloud prompts, raw responses, hidden outcomes, generation seeds, credent
 
 ## Status
 
-This directory is a local release candidate. Public GitHub and Kaggle publication require the account owner's final action and have not yet occurred.
+This is the frozen SplitSense-Bench v1.0.0 public research package. It reports Diagnostic-D2 without reopening Track A, starting D3, or treating future Benchmark-B1 work as completed.

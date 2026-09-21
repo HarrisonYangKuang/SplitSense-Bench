@@ -10,7 +10,7 @@
   },
   "private_evidence_status": "PRIVATE_EVIDENCE_NOT_PUBLIC",
   "public_boundary": "Aggregate/anonymized endpoint data only. Private tasks, hidden outcomes, generation seeds, raw prompts, responses, and credentials are excluded.",
-  "release_status": "CANDIDATE_NOT_PUBLISHED",
+  "release_status": "PUBLIC_RELEASE_V1_PACKAGE",
   "replication": {
     "bootstrap_seed": 2026092103,
     "deployments_per_world": 2,

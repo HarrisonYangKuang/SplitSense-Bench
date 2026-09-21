@@ -1,0 +1,30 @@
+{
+  "bootstrap_draws": 20000,
+  "endpoint": "J_D2 = valid lock AND correct semantic plan P AND every normalized component error <= 1e-4",
+  "frozen_model_identifier": "openai/gpt-5.4-nano-2026-03-17",
+  "main": {
+    "bootstrap_seed": 2026092102,
+    "deployments_per_world": 2,
+    "sessions_per_mode": 64,
+    "worlds": 32
+  },
+  "private_evidence_status": "PRIVATE_EVIDENCE_NOT_PUBLIC",
+  "public_boundary": "Aggregate/anonymized endpoint data only. Private tasks, hidden outcomes, generation seeds, raw prompts, responses, and credentials are excluded.",
+  "release_status": "CANDIDATE_NOT_PUBLISHED",
+  "replication": {
+    "bootstrap_seed": 2026092103,
+    "deployments_per_world": 2,
+    "sessions_per_mode": 32,
+    "worlds": 16
+  },
+  "schema": "splitsense-public-results-v1",
+  "source_cycle": "Diagnostic-D2 COMPLETE_DIAGNOSTIC",
+  "source_hashes": {
+    "COMPLETION_AUDIT.json": "6006012c637fcd3256f59e581e59d54c24d9b82cac1d6eacdf66f28765a3abd4",
+    "INTEGRATED_REPORT.md": "3bb3a0d90b88394f5fc67b97a75f25676fe5c63af92d72753c4bba848ac3f3db",
+    "formal_results.json": "c9ccdd5ccdc74f66ad70240481d5d7349ba347eef191b8506a094ff6f27b919b",
+    "formal_session_scores.json.gz": "01b6abb78109fcb5365ec9f259a09c89f3c94c4da4334219598fda06a1a992e2",
+    "measurement_contract.json": "8fa3390e284ef11cc55dd391763190fafb9404e34087c1f13ed23914192c59d8",
+    "sealed_receipt.json": "f8656f6804f604d7db63d2313e624f33ead38a839af920cc7e2e994b8b2b4e69"
+  }
+}

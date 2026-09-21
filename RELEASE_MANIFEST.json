@@ -1,0 +1,164 @@
+{
+  "file_count": 31,
+  "files": [
+    {
+      "bytes": 33,
+      "path": ".gitignore",
+      "sha256": "fa5b2d4433b835933b22140e01833a4972a0ee8532d76951286e3dd071994af0"
+    },
+    {
+      "bytes": 535,
+      "path": "CITATION.cff",
+      "sha256": "e072c68d17989d699ad0b0769a1c268a7c407923ffb4ad765c20424fc0fec704"
+    },
+    {
+      "bytes": 2831,
+      "path": "CLAIMS_AND_LIMITATIONS.md",
+      "sha256": "1d0088fed25a80209bb3959674ff32503b14d6c0e7bbe38dcae20d2e3a63d16d"
+    },
+    {
+      "bytes": 1086,
+      "path": "LICENSE",
+      "sha256": "72ddf083df62870390cb12c66e13a45c8aeff69a4198caec9723162d585e50ff"
+    },
+    {
+      "bytes": 755,
+      "path": "MASTER_PLAN.md",
+      "sha256": "af2645396b9b50d6670b26950318245733d2102f2d7187609b8d85abdd9ff216"
+    },
+    {
+      "bytes": 3047,
+      "path": "METHODS.md",
+      "sha256": "699fae8adf81b527804c76f52c83233a6e682ba0b2f6ed18e22e221719d7f454"
+    },
+    {
+      "bytes": 1211,
+      "path": "PRIVACY_AND_PROVENANCE.md",
+      "sha256": "fc39ef4b36a4a24f5f9cf1c58f0fd9a31698ca9b1b3d436dfbe31f35925b692f"
+    },
+    {
+      "bytes": 2822,
+      "path": "README.md",
+      "sha256": "59a76e3dd915cf19f77152749eae31e39891f490c7901896d88439ec8d90797c"
+    },
+    {
+      "bytes": 878,
+      "path": "REPRODUCE.md",
+      "sha256": "c12b69e7f6364f681509874b9d0c55bb1418f5f354624d006ceacc1a84dffdc5"
+    },
+    {
+      "bytes": 2267,
+      "path": "analysis/build_release_manifest.py",
+      "sha256": "36ce61ebe5b43c099ab17e964970471501f1867159fde681a770d6683ab76d67"
+    },
+    {
+      "bytes": 4347,
+      "path": "analysis/make_figures.py",
+      "sha256": "f9a6de9d6a3e7d48eb7e1f4ec840a1ca41ae74caf51f052ff84029b6b8a3978d"
+    },
+    {
+      "bytes": 292,
+      "path": "benchmark/README.md",
+      "sha256": "f5dc78ef8318ff2d8774c3c1924a3406cfdd996005dfa40030e0effc2e3a19c0"
+    },
+    {
+      "bytes": 1187,
+      "path": "demo.py",
+      "sha256": "9dda195d59925936e07d410922a8bef81f41cd1f13ff4e1e2358cb14cbe72bfa"
+    },
+    {
+      "bytes": 5120,
+      "path": "examples/executor_examples.json",
+      "sha256": "881dcea379bcffa050e7f863d6d1543ed389d8b8c90e5b0bf45e9805fde362de"
+    },
+    {
+      "bytes": 1499,
+      "path": "examples/task_examples.json",
+      "sha256": "683331fc0776b05dedbac3bdf686832d9725ff2ccce5fa46476b905bb51d14d0"
+    },
+    {
+      "bytes": 70,
+      "path": "executors/__init__.py",
+      "sha256": "4c643273ea5476983fee337143af5fcb7663d921e5b3886fb26f236e47bb7d07"
+    },
+    {
+      "bytes": 1346,
+      "path": "executors/component.py",
+      "sha256": "b4b5e9258fa65b5742ef9fcedf3cbfb059fd828ab21658e53b6f96173beb5112"
+    },
+    {
+      "bytes": 11606,
+      "path": "executors/core.py",
+      "sha256": "065b64d6831d6d266437e622f33fd741dfef86132328d5cf12779c08b45bbe78"
+    },
+    {
+      "bytes": 481,
+      "path": "kaggle/README.md",
+      "sha256": "5de27674147c5eecd5738cdfb277e69d12d640dfa14384190ff65f0f7cf3d392"
+    },
+    {
+      "bytes": 8955,
+      "path": "kaggle/SplitSense_Public_Notebook.ipynb",
+      "sha256": "94a0f8f2dcb774d060fb0f17aab42d3144c41ff28246bbb3ec71018b5c97a72c"
+    },
+    {
+      "bytes": 1456,
+      "path": "public_results/metadata.json",
+      "sha256": "76c3dd4c7d5a9d614f55bee8d714308a3731e1e4634c44d889cb8a394809001a"
+    },
+    {
+      "bytes": 11847,
+      "path": "public_results/public_results.csv",
+      "sha256": "a234f8a0cecfe66e683d81eb859ec0ec5015c719bd83f7a208cc3693255a3638"
+    },
+    {
+      "bytes": 7294,
+      "path": "public_results/replication_results.csv",
+      "sha256": "81d8f9385cd91960148ce3724ae563a5f0ac5f6b56c6830411128952824407e9"
+    },
+    {
+      "bytes": 13243,
+      "path": "reports/SPLITSENSE_D2_REPORT.md",
+      "sha256": "713ed92476a1f21ddf7569660f93bed60cfc92275c06aa224dc5632b8105b21e"
+    },
+    {
+      "bytes": 16662,
+      "path": "reports/SPLITSENSE_D2_REPORT.pdf",
+      "sha256": "573a74662381b2c58da9078c88d1857edb057aec6e917dd1b98526708bd7ccb3"
+    },
+    {
+      "bytes": 7493,
+      "path": "reports/build_report.py",
+      "sha256": "8f1a5585bacb704bb8c1b5790b26bbb5adabaacc4d2c8f72880284a578476512"
+    },
+    {
+      "bytes": 2948,
+      "path": "reports/figure1_success_rates.svg",
+      "sha256": "08ac93ca02d449f4505b073aab01c56266eb8202151cf5dc7adaadc33c9e16d5"
+    },
+    {
+      "bytes": 2817,
+      "path": "reports/figure2_n2_minus_n0.svg",
+      "sha256": "4b35b051b3716215a971a34f08aa8a079c3aa3767bdd5a9da3f7cae3eb34bda7"
+    },
+    {
+      "bytes": 3406,
+      "path": "reproduce_public_results.py",
+      "sha256": "cb65c1a946f55573b4b3b2c662953627289ee6ba01335c2b30241d40fcb6415e"
+    },
+    {
+      "bytes": 319,
+      "path": "risk_audit/README.md",
+      "sha256": "5c1ba9ef9b794104e20594af27c67c9826bbf4f038b5b71705a27c28e9493b72"
+    },
+    {
+      "bytes": 1531,
+      "path": "tests/test_public_release.py",
+      "sha256": "18f8a900fa39e737fc0deb49f83a0df06bd83f8e65ce57d18d6d46262239193a"
+    }
+  ],
+  "hash_algorithm": "SHA-256",
+  "release": "1.0.0-rc1",
+  "release_date": "2026-09-21",
+  "schema": "splitsense-public-release-manifest-v1"
+}

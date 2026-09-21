@@ -1,87 +1,46 @@
-# SplitSense-Bench · Development release
+# SplitSense-Bench
 
-A runnable diagnostic toolkit for studying how deployment descriptions and validation choices affect model selection.
+**SplitSense studies whether data-science agents can correctly use validation evidence under explicit deployment settings, and whether separating semantic decisions from numerical execution improves reliable delivery.**
 
-**Status: development tasks, not a validated Agent leaderboard.** The four synthetic tasks failed our stronger-candidate validity gate. No claim of systematic Agent failure or Skill improvement is supported. This release makes the implementations inspectable and runnable; it does not turn negative research results into a successful benchmark.
+## Frozen Diagnostic-D2 result
 
-Download the [v0.1.8-dev source package](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/tag/v0.1.8-dev) for a fixed snapshot including the v38 prediction evidence, refit comparison and revised Skill. The Appliances research pilot is evidence, not an additional validated Agent task.
+| Batch | N0 direct | N1 calculator | N2 declarative | N2 − N0 paired-world difference |
+|---|---:|---:|---:|---:|
+| Main | 0/64 (0.00%) | 13/64 (20.31%) | 14/64 (21.88%) | **+21.88 pp**, 95% CI [12.50, 32.81] |
+| Independent replication | 0/32 (0.00%) | 7/32 (21.88%) | 12/32 (37.50%) | **+37.50 pp**, 95% CI [18.75, 56.25] |
 
-## Quick start
+N0 required the Agent to output the full risk vector. N1 let the Agent use a bounded calculator before submitting the vector. N2 required the Agent to lock evidence references, candidate bindings, and weights; a restricted executor then produced the vector without correcting semantic choices.
 
-Python 3.10+; standard library only. No API keys, installation, GPU or network required after cloning.
+## What this does not prove
 
-```sh
-git clone https://github.com/HarrisonYangKuang/SplitSense-Bench.git
-cd SplitSense-Bench
-python3 benchmark.py list
-python3 benchmark.py demo --task temporal_future --seed 101
+The N2-versus-N1 intervals cross zero, so the study does not show that declarative execution is better than calculator assistance. It also does not establish stronger underlying model reasoning, real-world deployment-risk accuracy, Track A model-selection reliability, cross-model generalization, or cross-domain generalization. See [CLAIMS_AND_LIMITATIONS.md](CLAIMS_AND_LIMITATIONS.md).
+
+## Reproduce offline
+
+No API key, Kaggle account, network connection, or GPU is required.
+
+```bash
+python reproduce_public_results.py
+python demo.py
+python -m unittest discover -s tests -v
+python analysis/build_release_manifest.py --check
 ```
 
-The demo uses all nine fixed candidates and reports random/aligned validation choices plus future MSE. Aligned means a deployment-matched reference, not an infallible oracle. The finite-sample best candidate is computed after scoring and is not available to the selection step. Smaller MSE is better. These are trusted-script demonstrations, not Agent results.
+The first command reconstructs absolute counts, percentages, paired-world differences, and the frozen 20,000-draw percentile bootstrap intervals from anonymized aggregate episode records. The second runs a public toy example through the key-free declarative executor.
 
-## Export a task and grade predictions
+## Repository map
 
-```sh
-python3 -m tasks.temporal_future.data_generator --seed 101 --agent-dir run/agent --evaluator-dir run/evaluator
-python3 benchmark.py grade --submission run/agent/sample_submission.csv --hidden run/evaluator/hidden_labels.csv
-```
+- `public_results/`: anonymized main and replication endpoint records plus metadata.
+- `executors/`: bounded declarative executor used by the toy demo.
+- `examples/`: public toy task and plan; these are not formal D2 episodes.
+- `analysis/`: deterministic figure and verification utilities.
+- `tests/`: public reproduction and demo checks.
+- `reports/`: public technical report.
+- `benchmark/`: future Benchmark-B1 schema material; no public benchmark is claimed yet.
+- `RELEASE_MANIFEST.json`: byte sizes and SHA-256 hashes for every public file.
 
-The second command scores a zero-prediction format example. Replace it with the model's CSV containing exactly row_id,target. Duplicate, missing, extra or nonfinite predictions are rejected.
+Private cloud prompts, raw responses, hidden outcomes, generation seeds, credentials, and restricted evidence are intentionally excluded. Their status is `PRIVATE_EVIDENCE_NOT_PUBLIC`; frozen hashes and the local completion audit preserve the evidence boundary.
 
-Give an Agent only the exported agent directory. Keep evaluator files, generator source and seed outside its access. Separate directories alone are NOT permission isolation. Public generators and demo seeds do not provide a secret test set; this release contains no secure hosted evaluator and does not execute untrusted code.
+## Status
 
-## Tasks and versions
-
-Development tasks: temporal_iid, temporal_future, entity_seen, entity_unseen. Paired tasks share training construction but differ in deployment. The temporal_iid identifier denotes historical sampling, not a proof of IID observations.
-
-Generator: 0.1.0-prototype. Default demo candidate library: 0.2.0-strong-candidate-challenge. Legacy task baseline/oracle modules retain the original five-candidate implementation for reproducibility; use benchmark.py for the nine-candidate demo. Names containing oracle are historical reference names, not access to future answers.
-
-## Known limitations and research record
-
-The original 9-candidate/40-development-instance challenge did not pass the frozen gate. Subsequent Cooking, Seoul, Capital and multi-window diagnostics also did not establish stable task validity. No formal Agent/Skill comparison or external human review has been completed. Thus no leaderboard or model capability ranking is provided.
-
-The public package contains synthetic generators, scoring code, frozen experiment scripts, aggregate results, and compressed v38 predictions with source attribution. It contains no credentials or proprietary weights. Validated tasks and formal Agent trajectories remain ongoing work. Do not use this development score as a model capability claim.
-
-中文：这是可运行的开发版，包含任务生成、九候选演示和提交评分。任务尚未通过科研有效性门；不代表已证明Agent缺陷或Skill有效。完整研究目标仍在进行。
-
-## Automated interface verification
-
-[CI runs](https://github.com/HarrisonYangKuang/SplitSense-Bench/actions/workflows/interface.yml) execute all four development demos, check paired training and exported file boundaries, and reject malformed submissions. These checks establish software behavior, not research validity or OS-level isolation. Run locally with `python3 -m unittest discover -s tests -v`; research sweeps should use cloud resources.
-
-## Inspect the experimental evidence
-
-[Public evidence capsule](evidence/README.md) includes 30 saved cases and a standard-library table reproducer. Run `python3 evidence/reproduce.py`. Coverage and raw-data limitations are explicit; this is not a model leaderboard.
-
-## Re-run original experiments
-
-[Cloud reproduction guide](experiments/README.md) provides four original executed scripts, source hashes and the recorded runtime. Source verification is automated; cloud training reproduction has additional environment requirements and is not silently replaced by table arithmetic.
-
-The [original 40-instance challenge](evidence/legacy_results.csv) is also public, retaining both five- and nine-candidate results. Verify with `python3 evidence/verify_legacy.py`.
-
-## Read the report
-
-The [8-page technical report](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/SplitSense_report.pdf) is the frozen v32 stage report. Read it together with the [later-results addendum](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/REPORT_ADDENDUM.md), covering independent reproduction and v36. The [zoomable figure](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/Fig1.svg) and [caption](https://github.com/HarrisonYangKuang/SplitSense-Bench/releases/download/v0.1.4-dev/Fig1_caption.md) describe the earlier 31-case snapshot; the figure does not include v36. These are stage findings, not a final validated benchmark report.
-
-## Connect a text responder
-
-The [training-only Agent interface](harness/README.md) supports bounded evaluate/commit actions over stdin/stdout, with explicit receipts and failure handling. It does not include a paid model client or claim OS-level isolation.
-
-The [post-commit grader](harness/README.md#post-commit-scoring-command) completes the public selection workflow by replaying sealed actions before opening scoring data.
-
-### When a model-selection penalty is not an Agent error
-
-[Paired-history boundary cases](evidence/HISTORY_AMBIGUITY.md) and [their reproducible table](evidence/history_ambiguity.csv) document a conditional, post-hoc limit of the frozen six-candidate synthetic study. Run `python3 evidence/history_ambiguity.py` to recompute all five pairs from the public aggregate evidence. No Agent capability conclusion follows.
-
-### SplitSense Skill
-
-The [development checklist and usage contract](skills/README.md) provide deployment-aware validation guidance compatible with the public session. The intervention has not been evaluated for effectiveness; a tokenizer-matched control is not yet available.
-
-### Independent implementation comparison
-
-[Saved v33 results](evidence/capital_reproduction.json) support a [90-loss comparison](evidence/check_capital_reproduction.py) with the original Capital study: `python3 evidence/check_capital_reproduction.py`. Separate implementation by the same AI, same instances and estimators; not external review. The comparison reproduces the failed validity gate and does not establish Agent performance. Source for rerunning the fits is `experiments/capital_independent_v33.py`; this check only compares saved results.
-
-## Research completion status
-
-See [the v0.1.8-dev completion ledger](RESEARCH_STATUS.md) for delivered components, missing evidence, and the boundary between this usable development release and a validated research benchmark.
-
-Latest research narrative: [中文报告补充：截至 v38](research/REPORT_UPDATE_V38.md). This supplements the frozen earlier PDF; it does not establish formal Agent or Skill results.
+This directory is a local release candidate. Public GitHub and Kaggle publication require the account owner's final action and have not yet occurred.

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this release, please cite the SplitSense-Bench technical report."
+title: "SplitSense-Bench: Separating Data-Science Reasoning from Numerical Execution"
+type: software
+version: 1.0.0-rc1
+date-released: 2026-09-21
+authors:
+  - name: "SplitSense-Bench contributors"
+license: MIT
+abstract: "A reproducible research package for evaluating whether data-science agents use validation evidence under explicit deployment settings and whether bounded execution support improves strict complete delivery."

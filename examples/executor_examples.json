@@ -1,0 +1,197 @@
+{
+  "examples": [
+    {
+      "plan": {
+        "op": "execute_plan",
+        "outputs": [
+          {
+            "candidate_id": "c01",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c01",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c01",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c02",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c02",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c02",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c03",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c03",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c03",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c04",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c04",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c04",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c05",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c05",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c05",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c06",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c06",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c06",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c07",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c07",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c07",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c08",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c08",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c08",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c09",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c09",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c09",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c10",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c10",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c10",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c11",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c11",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c11",
+                "weight_index": 1
+              }
+            ]
+          },
+          {
+            "candidate_id": "c12",
+            "terms": [
+              {
+                "pool_id": "pool_seen",
+                "source_candidate_id": "c12",
+                "weight_index": 0
+              },
+              {
+                "pool_id": "pool_unseen",
+                "source_candidate_id": "c12",
+                "weight_index": 1
+              }
+            ]
+          }
+        ],
+        "weights": [
+          0.25,
+          0.75
+        ]
+      },
+      "task_id": "public_toy_001"
+    }
+  ],
+  "schema": "splitsense-public-executor-examples-v1"
+}

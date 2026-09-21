@@ -1,6 +1,6 @@
 # SplitSense-Bench: Separating Data-Science Reasoning from Numerical Execution
 
-**Public technical report — release candidate, 2026-09-21**
+**Public technical report — v1.0.0, 2026-09-21 · Ouyang Kuang**
 
 ## Abstract
 

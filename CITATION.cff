@@ -5,7 +5,8 @@ type: software
 version: 1.0.0
 date-released: 2026-09-21
 authors:
-  - name: "SplitSense-Bench contributors"
+  - family-names: "Ouyang"
+    given-names: "Kuang"
 license: MIT
 repository-code: "https://github.com/HarrisonYangKuang/SplitSense-Bench"
 abstract: "A reproducible research package for evaluating whether data-science agents use validation evidence under explicit deployment settings and whether bounded execution support improves strict complete delivery."

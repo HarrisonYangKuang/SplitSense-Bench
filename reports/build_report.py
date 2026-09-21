@@ -89,7 +89,7 @@ def build():
     title = ParagraphStyle("Title", parent=styles["Title"], fontName="Helvetica-Bold", fontSize=23, leading=28, textColor=colors.HexColor("#153B50"), alignment=TA_CENTER, spaceAfter=15)
     subtitle = ParagraphStyle("Subtitle", parent=body, fontName="Helvetica-Oblique", alignment=TA_CENTER, fontSize=10, textColor=colors.HexColor("#5D6673"), spaceAfter=18)
     quote = ParagraphStyle("Quote", parent=body, leftIndent=10 * mm, rightIndent=10 * mm, borderColor=colors.HexColor("#D79A3B"), borderWidth=0, borderPadding=5, backColor=colors.HexColor("#F8F4EA"))
-    doc = SimpleDocTemplate(str(OUTPUT), pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm, topMargin=18 * mm, bottomMargin=18 * mm, title="SplitSense-Bench: Separating Data-Science Reasoning from Numerical Execution", author="SplitSense-Bench contributors")
+    doc = SimpleDocTemplate(str(OUTPUT), pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm, topMargin=18 * mm, bottomMargin=18 * mm, title="SplitSense-Bench: Separating Data-Science Reasoning from Numerical Execution", author="Ouyang Kuang")
     lines = SOURCE.read_text().splitlines()
     story = []
     paragraph = []

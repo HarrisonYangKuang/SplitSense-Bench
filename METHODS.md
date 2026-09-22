@@ -39,3 +39,11 @@ The independent unit was the world. For each world and comparison, the two deplo
 ## Public-data boundary
 
 The public CSV files contain batch, anonymized world, anonymized deployment, execution mode, terminal category, valid-lock indicator, semantic-plan indicator `P`, and strict endpoint `J_D2`. They exclude task-generation seeds, hidden outcomes, raw prompts, raw responses, private account data, and private cloud material. This is sufficient to reproduce the registered public comparisons but not to reconstruct private formal episodes.
+
+## Benchmark-B1
+
+B1 converts the visible evidence-use problem into 12 deterministic synthetic base tasks arranged as six A/B pairs. Each task is exposed in Direct, Calculator, and Declarative modes. A session receives two visible validation-risk pools, candidate IDs, and a deployment contract. It must choose the record-level mixture, bind candidates by ID, and apply `record_weighted_mean`.
+
+B1 separates semantic success `S`, numerical execution success `X`, and end-to-end success `J = S * X`. `S=1` requires correct pool membership, record-level weights, candidate binding, and aggregation. `X=1` requires a complete vector whose maximum error, divided by the published positive synthetic scale, is at most `1e-4`. Each native Kaggle task contains two isolated sessions and returns their mean `J`.
+
+The effective reference combines accepted Direct and Declarative runs from `b1-1.0.1 v1r2` with the frozen Calculator repair `b1-1.0.2 v1r3`. The latter asks for one plan plus candidate-keyed arithmetic expressions and evaluates those expressions once using a bounded AST interpreter. The executor cannot read files, access the network, invoke names, or repair semantic choices.

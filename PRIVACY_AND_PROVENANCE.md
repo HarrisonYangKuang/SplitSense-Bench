@@ -14,3 +14,7 @@ Excluded as `PRIVATE_EVIDENCE_NOT_PUBLIC`:
 The public main and replication CSV files are derived from the sealed Diagnostic-D2 score bundle. World and deployment identifiers were replaced with release-local identifiers. They retain only the terminal category and the three registered endpoint indicators needed to reconstruct published counts and paired-world comparisons.
 
 All included code and prose were produced within the SplitSense-Bench project. No third-party source code or dataset is redistributed. External papers are cited by bibliographic reference and link. SplitSense-Bench v1.0.0 is distributed under the MIT License; the Kaggle data artifact uses CC0-1.0.
+
+## Benchmark-B1 addition
+
+B1 publishes its deterministic synthetic inputs, independent scorer, exact Kaggle task sources, source hashes, platform URLs, and aggregate reference summary. The task inputs contain no private user data or third-party dataset. Private account metadata, credentials, transport details, and raw reference conversations are excluded from the GitHub package. The repository source remains MIT-licensed; Kaggle backing notebooks are published with the tasks and their platform license field is set to MIT when the interface exposes that control, otherwise the unavailable field is recorded explicitly.

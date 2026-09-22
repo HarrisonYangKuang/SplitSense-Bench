@@ -44,8 +44,8 @@ def expected_manifest() -> dict[str, object]:
     files = inventory()
     return {
         "schema": "splitsense-public-release-manifest-v1",
-        "release": "1.0.0",
-        "release_date": "2026-09-21",
+        "release": "1.1.0",
+        "release_date": "2026-09-22",
         "hash_algorithm": "SHA-256",
         "file_count": len(files),
         "files": files,

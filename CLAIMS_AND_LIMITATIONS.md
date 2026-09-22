@@ -38,3 +38,18 @@ Source boundary: Diagnostic-D2 `COMPLETE_DIAGNOSTIC`, frozen by `D2_PUBLICATION_
 ## Frozen interpretation rules
 
 D2 raw results, registered worlds, model identifier, endpoint, bootstrap procedure, failures, and comparison definitions are read-only. Publication may improve explanation and packaging but may not rescore, add worlds, tune prompts, change thresholds, or reinterpret Track A.
+
+## Benchmark-B1 v1.0.0 addition
+
+### SUPPORTED
+
+- B1 is a public runnable suite with 12 deterministic synthetic base tasks, 36 native task sources, and separate Direct, Calculator, and Declarative collections.
+- The frozen `google/gemini-3.7-flash` reference contains 36 native runs and 72 sessions. Each mode has 24 sessions and recorded `SA = EA = E2E = 1.0`.
+- Independent recomputation matched every platform score. All effective sessions passed the frozen limits; the observed maxima were 2 model requests, 5,445 tokens, and 1 LLM tool call per session.
+
+### LIMITS
+
+- The B1 result is a single-model, single-platform reference over open deterministic synthetic fixtures. A perfect reference score indicates saturation for this model under this interface; it is not evidence of model superiority.
+- B1 targets use visible validation-risk evidence. They are not hidden deployment outcomes and do not validate risk estimates against real deployment loss.
+- B1 does not complete Track A, compare models, establish cross-domain or production generalization, or show that Declarative is better than Calculator.
+- The public task code makes the deterministic targets derivable. B1 supports transparent reproduction, not permanent contamination resistance.

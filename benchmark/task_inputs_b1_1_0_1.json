@@ -1,0 +1,2050 @@
+{
+  "schema": "splitsense-b1-task-set-v1",
+  "benchmark_version": "b1-1.0.1",
+  "tasks": [
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t01-v1",
+      "pair_id": "ss-b1-p01",
+      "deployment": {
+        "description": "All deployment records come from entities represented in training.",
+        "seen_records": 240,
+        "unseen_records": 0,
+        "seen_record_fraction": "1.00000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p01-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.83100000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "0.96800000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.10500000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.24200000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.37900000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.51600000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.65300000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.79000000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "1.92700000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.06400000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.20100000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.33800000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.42900000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.30800000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.18700000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.06600000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "2.94500000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.82400000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.70300000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.58200000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.46100000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.34000000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.21900000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.09800000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "5cd7417afee755adce334cbe6ed1d90d01de4ff7f44967147f5bf0725205a429"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t02-v1",
+      "pair_id": "ss-b1-p01",
+      "deployment": {
+        "description": "All deployment records come from entities not represented in training.",
+        "seen_records": 0,
+        "unseen_records": 240,
+        "seen_record_fraction": "0.00000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p01-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.83100000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "0.96800000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.10500000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.24200000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.37900000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.51600000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.65300000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.79000000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "1.92700000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.06400000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.20100000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.33800000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.42900000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.30800000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.18700000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.06600000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "2.94500000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.82400000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.70300000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.58200000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.46100000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.34000000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.21900000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.09800000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "d54f5d0b73b6b57d28969ffd9e822c830dbd171d4761d81289fa807abb9fa971"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t03-v1",
+      "pair_id": "ss-b1-p02",
+      "deployment": {
+        "description": "The deployment contract explicitly states that 25% of records are from seen entities and 75% from unseen entities.",
+        "seen_records": 120,
+        "unseen_records": 360,
+        "seen_record_fraction": "0.25000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p02-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.86200000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "0.99900000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.13600000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.27300000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.41000000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.54700000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.68400000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.82100000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "1.95800000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.09500000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.23200000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.36900000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.45800000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.33700000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.21600000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.09500000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "2.97400000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.85300000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.73200000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.61100000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.49000000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.36900000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.24800000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.12700000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "f6665ea3eadb33e11f80498b9dcc53cb0784982ee66c6781d242b20e8b319f61"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t04-v1",
+      "pair_id": "ss-b1-p02",
+      "deployment": {
+        "description": "The deployment contract explicitly states that 75% of records are from seen entities and 25% from unseen entities.",
+        "seen_records": 360,
+        "unseen_records": 120,
+        "seen_record_fraction": "0.75000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p02-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.86200000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "0.99900000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.13600000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.27300000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.41000000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.54700000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.68400000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.82100000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "1.95800000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.09500000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.23200000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.36900000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.45800000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.33700000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.21600000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.09500000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "2.97400000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.85300000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.73200000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.61100000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.49000000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.36900000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.24800000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.12700000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "4a9c0ff799d626cf3038ab91b8b96bc74587c38db93b34f66973d0774f591843"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t05-v1",
+      "pair_id": "ss-b1-p03",
+      "deployment": {
+        "description": "Derive record weights from 120 seen-entity records and 360 unseen-entity records.",
+        "seen_records": 120,
+        "unseen_records": 360,
+        "seen_record_fraction": "0.25000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p03-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.89300000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "1.03000000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.16700000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.30400000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.44100000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.57800000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.71500000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.85200000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "1.98900000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.12600000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.26300000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.40000000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.48700000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.36600000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.24500000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.12400000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "3.00300000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.88200000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.76100000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.64000000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.51900000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.39800000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.27700000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.15600000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "fb50d6549ef1650bdd7182524185a5a5d121ef30c8097016b734441ff306c19e"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t06-v1",
+      "pair_id": "ss-b1-p03",
+      "deployment": {
+        "description": "Derive record weights from 360 seen-entity records and 120 unseen-entity records.",
+        "seen_records": 360,
+        "unseen_records": 120,
+        "seen_record_fraction": "0.75000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p03-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.89300000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "1.03000000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.16700000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.30400000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.44100000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.57800000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.71500000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.85200000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "1.98900000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.12600000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.26300000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.40000000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.48700000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.36600000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.24500000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.12400000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "3.00300000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.88200000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.76100000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.64000000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.51900000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.39800000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.27700000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.15600000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "772ee590e95894ba05530f2496f2e0e06d23a67e9bbb98eb528fa5f9be6473b8"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t07-v1",
+      "pair_id": "ss-b1-p04",
+      "deployment": {
+        "description": "Use records, not entity counts: 20 seen entities contribute 180 records; 60 unseen entities contribute 60 records.",
+        "seen_entities": 20,
+        "unseen_entities": 60,
+        "seen_records": 180,
+        "unseen_records": 60,
+        "seen_record_fraction": "0.75000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p04-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.92400000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "1.06100000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.19800000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.33500000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.47200000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.60900000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.74600000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.88300000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.02000000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.15700000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.29400000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.43100000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.51600000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.39500000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.27400000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.15300000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "3.03200000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.91100000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.79000000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.66900000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.54800000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.42700000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.30600000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.18500000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "19199e29e10b5ee9ffb72e04f5df36afcdb7be5d760fd1cc100277f38448c379"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t08-v1",
+      "pair_id": "ss-b1-p04",
+      "deployment": {
+        "description": "Use records, not entity counts: 60 seen entities contribute 60 records; 20 unseen entities contribute 180 records.",
+        "seen_entities": 60,
+        "unseen_entities": 20,
+        "seen_records": 60,
+        "unseen_records": 180,
+        "seen_record_fraction": "0.25000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p04-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.92400000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "1.06100000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.19800000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.33500000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.47200000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.60900000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.74600000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.88300000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.02000000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.15700000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.29400000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.43100000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.51600000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.39500000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.27400000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.15300000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "3.03200000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.91100000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.79000000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.66900000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.54800000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.42700000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.30600000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.18500000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "6deae13c70d33326c1e5ec413607eb34ce49a21480afd3cd133dea47a5672c13"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t09-v1",
+      "pair_id": "ss-b1-p05",
+      "deployment": {
+        "description": "Pool identifiers are arbitrary. Use the membership field. Deployment is 25% seen records and 75% unseen records.",
+        "seen_records": 120,
+        "unseen_records": 360,
+        "seen_record_fraction": "0.25000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p05-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_kappa",
+        "pool_zeta"
+      ],
+      "pools": {
+        "pool_kappa": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.95500000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "1.09200000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.22900000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.36600000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.50300000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.64000000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.77700000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.91400000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.05100000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.18800000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.32500000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.46200000"
+            }
+          ]
+        },
+        "pool_zeta": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.54500000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.42400000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.30300000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.18200000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "3.06100000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.94000000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.81900000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.69800000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.57700000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.45600000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.33500000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.21400000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "e3657f933bf213b05ab5afd73195ce385e3ebf5beadcbf8cfb8f3439bc3a9927"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t10-v1",
+      "pair_id": "ss-b1-p05",
+      "deployment": {
+        "description": "Pool identifiers are arbitrary and swapped relative to the paired task. Use the membership field. Deployment is 25% seen records and 75% unseen records.",
+        "seen_records": 120,
+        "unseen_records": 360,
+        "seen_record_fraction": "0.25000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p05-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_kappa",
+        "pool_zeta"
+      ],
+      "pools": {
+        "pool_kappa": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.54500000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.42400000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.30300000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.18200000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "3.06100000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.94000000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.81900000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.69800000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.57700000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.45600000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.33500000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.21400000"
+            }
+          ]
+        },
+        "pool_zeta": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.95500000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "1.09200000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.22900000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.36600000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.50300000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.64000000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.77700000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.91400000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.05100000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.18800000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.32500000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.46200000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "71e0e7e16b0d71a253ff4b73f9b7c5edaa5dc7994532a770e678ebd961ecf675"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t11-v1",
+      "pair_id": "ss-b1-p06",
+      "deployment": {
+        "description": "Bind every risk by candidate ID. Deployment is 75% seen records and 25% unseen records.",
+        "seen_records": 360,
+        "unseen_records": 120,
+        "seen_record_fraction": "0.75000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p06-v1",
+        "output_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.98600000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "1.12300000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.26000000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.39700000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.53400000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.67100000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.80800000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.94500000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.08200000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.21900000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.35600000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.49300000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.57400000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.45300000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.33200000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.21100000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "3.09000000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.96900000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.84800000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.72700000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.60600000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.48500000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.36400000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.24300000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "5ff290c02d3b8d7ae3fcddb53e4abf6f106fa5f412cce4ca9a0d115baa9988f2"
+    },
+    {
+      "schema": "splitsense-b1-task-v1",
+      "benchmark_version": "b1-1.0.1",
+      "task_id": "ss-b1-t12-v1",
+      "pair_id": "ss-b1-p06",
+      "deployment": {
+        "description": "Risk rows and requested output order are independently reordered. Bind only by candidate ID. Deployment is 75% seen records and 25% unseen records.",
+        "seen_records": 360,
+        "unseen_records": 120,
+        "seen_record_fraction": "0.75000000",
+        "weight_basis": "deployment_records"
+      },
+      "predictor_lock": {
+        "lock_id": "ss-b1-predictors-p06-v1",
+        "output_candidate_ids": [
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12",
+          "c01",
+          "c02",
+          "c03",
+          "c04"
+        ],
+        "all_candidate_ids": [
+          "c01",
+          "c02",
+          "c03",
+          "c04",
+          "c05",
+          "c06",
+          "c07",
+          "c08",
+          "c09",
+          "c10",
+          "c11",
+          "c12"
+        ]
+      },
+      "pool_order": [
+        "pool_seen",
+        "pool_unseen"
+      ],
+      "pools": {
+        "pool_seen": {
+          "membership": "seen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.49300000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.35600000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.21900000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.08200000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "1.94500000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "1.80800000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "1.67100000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "1.53400000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "1.39700000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "1.26000000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "1.12300000"
+            },
+            {
+              "candidate_id": "c01",
+              "risk_mse": "0.98600000"
+            }
+          ]
+        },
+        "pool_unseen": {
+          "membership": "unseen",
+          "validation_records": 240,
+          "unit": "mean_squared_error",
+          "risk_rows": [
+            {
+              "candidate_id": "c01",
+              "risk_mse": "3.57400000"
+            },
+            {
+              "candidate_id": "c03",
+              "risk_mse": "3.33200000"
+            },
+            {
+              "candidate_id": "c05",
+              "risk_mse": "3.09000000"
+            },
+            {
+              "candidate_id": "c07",
+              "risk_mse": "2.84800000"
+            },
+            {
+              "candidate_id": "c09",
+              "risk_mse": "2.60600000"
+            },
+            {
+              "candidate_id": "c11",
+              "risk_mse": "2.36400000"
+            },
+            {
+              "candidate_id": "c02",
+              "risk_mse": "3.45300000"
+            },
+            {
+              "candidate_id": "c04",
+              "risk_mse": "3.21100000"
+            },
+            {
+              "candidate_id": "c06",
+              "risk_mse": "2.96900000"
+            },
+            {
+              "candidate_id": "c08",
+              "risk_mse": "2.72700000"
+            },
+            {
+              "candidate_id": "c10",
+              "risk_mse": "2.48500000"
+            },
+            {
+              "candidate_id": "c12",
+              "risk_mse": "2.24300000"
+            }
+          ]
+        }
+      },
+      "scale": {
+        "value": "2.00000000",
+        "kind": "SYNTHETIC_SCALE",
+        "unit": "mean_squared_error"
+      },
+      "aggregation": "record_weighted_mean",
+      "weight_tolerance": "0.000001",
+      "normalized_numeric_tolerance": "0.0001",
+      "source": "DETERMINISTIC_SYNTHETIC_PUBLIC_FIXTURE",
+      "visible_input_sha256": "2f5827914487074f21b3fb361cd5e5f83008cf57cc5bddd47d0c1c79b9a01c3c"
+    }
+  ]
+}

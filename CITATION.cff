@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this release, please cite the SplitSense-Bench technical report."
 title: "SplitSense-Bench: Separating Data-Science Reasoning from Numerical Execution"
 type: software
-version: 1.0.0
-date-released: 2026-09-21
+version: 1.1.0
+date-released: 2026-09-22
 authors:
   - family-names: "Ouyang"
     given-names: "Kuang"

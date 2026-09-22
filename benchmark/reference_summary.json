@@ -1,0 +1,55 @@
+{
+  "schema": "splitsense-b1-public-reference-summary-v1",
+  "benchmark_version": "b1-1.0.2",
+  "status": "PASS",
+  "reference_model": "google/gemini-3.7-flash",
+  "native_runs": 36,
+  "sessions": 72,
+  "mode_summaries": {
+    "direct": {
+      "sessions": 24,
+      "S": 24,
+      "SX": 24,
+      "J": 24,
+      "X": 24,
+      "SA": 1.0,
+      "EA": 1.0,
+      "E2E": 1.0,
+      "all_session_X": 1.0
+    },
+    "calculator": {
+      "sessions": 24,
+      "S": 24,
+      "SX": 24,
+      "J": 24,
+      "X": 24,
+      "SA": 1.0,
+      "EA": 1.0,
+      "E2E": 1.0,
+      "all_session_X": 1.0
+    },
+    "declarative": {
+      "sessions": 24,
+      "S": 24,
+      "SX": 24,
+      "J": 24,
+      "X": 24,
+      "SA": 1.0,
+      "EA": 1.0,
+      "E2E": 1.0,
+      "all_session_X": 1.0
+    }
+  },
+  "budget_maxima": {
+    "requests_per_session": 2,
+    "tokens_per_session": 5445,
+    "tool_calls_per_session": 1
+  },
+  "tested_model_tokens": 250976,
+  "interpretation": "One platform/model reference for an open deterministic synthetic evidence-use suite; not model-selection, deployment-risk, cross-model, or real-world validation evidence.",
+  "provenance": {
+    "direct": "b1-1.0.1 v1r2",
+    "calculator": "b1-1.0.2 v1r3",
+    "declarative": "b1-1.0.1 v1r2"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "file_count": 73,
+  "file_count": 76,
   "files": [
     {
       "bytes": 33,
@@ -17,6 +17,11 @@
       "sha256": "74e05fe1fe5f5fc556145cc2597856b30a0c92dcc1265c637afefdfdec20cda1"
     },
     {
+      "bytes": 2099,
+      "path": "CONTRIBUTIONS.md",
+      "sha256": "bbe58e9674cc4bc00d0e59dbf03678d2c8dd268fc3884c699099ff0e480ab0e4"
+    },
+    {
       "bytes": 1069,
       "path": "LICENSE",
       "sha256": "3b2bc849768a374bcdc5a66c91a92e22fc2f878723154a8c021c31367983efee"
@@ -32,24 +37,24 @@
       "sha256": "848db78dc6ce77be0fff9a3a036f4b86145131e83cafdcb1d5265d249ae94fc5"
     },
     {
-      "bytes": 1814,
+      "bytes": 2522,
       "path": "PRIVACY_AND_PROVENANCE.md",
-      "sha256": "51de88c25743fe4f2addf84a902c4e26a1562f4f0ba477a34995f3b84b8a4a2f"
+      "sha256": "e729967a63146ab0f2ddf93a503482d77d291ba0cd215bc6b220fa41171c01ed"
     },
     {
-      "bytes": 3365,
+      "bytes": 6367,
       "path": "README.md",
-      "sha256": "2f3d6b747a43a27a68740d2a25f6b57be6c2d3d1549454a0c47e691e9efbec91"
+      "sha256": "7d6a1cbe384abe5366491b7dce6059db40a1ae143f321efbad70823f6f063e8e"
     },
     {
-      "bytes": 1054,
+      "bytes": 2639,
       "path": "REPRODUCE.md",
-      "sha256": "5be423c43a3a29189a242ee5b4143f634a27b9c37bc3ad05f38ceed32a34b245"
+      "sha256": "e5c4973d1ea03aa569a012c511955ff4fa3e2544734f5ca2a94c5d55f2be7c2e"
     },
     {
-      "bytes": 2263,
+      "bytes": 2305,
       "path": "analysis/build_release_manifest.py",
-      "sha256": "da4ff559e5237527357df089c109893f20bea3144e219081996ec058e6cf3bfb"
+      "sha256": "e1025e7e57d79b0d143d1b71120f7a25fd487ada836c0310eeb6b9b51de8afca"
     },
     {
       "bytes": 4347,
@@ -57,14 +62,19 @@
       "sha256": "f9a6de9d6a3e7d48eb7e1f4ec840a1ca41ae74caf51f052ff84029b6b8a3978d"
     },
     {
-      "bytes": 3388,
+      "bytes": 3726,
       "path": "benchmark/README.md",
-      "sha256": "7c628ae849b9ed88386d2c1cff2cb8e228fe542b27531cd25ee5c22514152249"
+      "sha256": "b7f37c9e6731ace91a0f87a0343f03c4062a6a77c6fdfc3d0607d4e4e0890194"
     },
     {
       "bytes": 25901,
       "path": "benchmark/TASK_MANIFEST.json",
       "sha256": "2fbe11cfcb56f11a12eb5be4efb134e04bb63f966480799e09d9fe2f82b9a373"
+    },
+    {
+      "bytes": 3550,
+      "path": "benchmark/demo_scorer.py",
+      "sha256": "d0ada3d44b535bf4f136e5c2078649f41b476e714932e151149ab16629f4bfa4"
     },
     {
       "bytes": 1264,
@@ -362,12 +372,18 @@
       "sha256": "5c1ba9ef9b794104e20594af27c67c9826bbf4f038b5b71705a27c28e9493b72"
     },
     {
+      "bytes": 2675,
+      "path": "tests/test_b1_public_scorer.py",
+      "sha256": "8306f7789ccb23eed96462fc162f6994e4b31acbbda72afbcf86cd08171ab3c2"
+    },
+    {
       "bytes": 1531,
       "path": "tests/test_public_release.py",
       "sha256": "18f8a900fa39e737fc0deb49f83a0df06bd83f8e65ce57d18d6d46262239193a"
     }
   ],
   "hash_algorithm": "SHA-256",
+  "package_revision": "2026-10-01",
   "release": "1.1.0",
   "release_date": "2026-09-22",
   "schema": "splitsense-public-release-manifest-v1"

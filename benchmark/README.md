@@ -41,6 +41,7 @@ Only Python's standard library is needed to verify the public source inventory:
 ```bash
 python benchmark/verify_b1_release.py
 python -m py_compile benchmark/tasks/*.py
+python -m benchmark.demo_scorer
 ```
 
-Running the tasks themselves requires the Kaggle Benchmarks SDK and platform model access. The task source is released under the repository's MIT License.
+The scorer walkthrough uses only an already-public synthetic fixture and constructed responses. It shows why correct numbers alone cannot pass an incorrect evidence plan. Running the tasks themselves requires the Kaggle Benchmarks SDK and platform model access. The task source in this repository is released under MIT; the Kaggle backing Notebooks use the platform's Apache 2.0 license. See [the privacy and provenance boundary](../PRIVACY_AND_PROVENANCE.md).

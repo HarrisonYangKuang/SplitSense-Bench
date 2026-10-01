@@ -46,6 +46,7 @@ def expected_manifest() -> dict[str, object]:
         "schema": "splitsense-public-release-manifest-v1",
         "release": "1.1.0",
         "release_date": "2026-09-22",
+        "package_revision": "2026-10-01",
         "hash_algorithm": "SHA-256",
         "file_count": len(files),
         "files": files,
